@@ -26,34 +26,54 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'computerlaptopwebsite' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$computerlaptopwebsite_description = get_bloginfo( 'description', 'display' );
-			if ( $computerlaptopwebsite_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $computerlaptopwebsite_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'computerlaptopwebsite' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-primary',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
-		</nav><!-- #site-navigation -->
+
+	<!--Foundation here-->
+		<div class="grid-container">
+			<div class="grid-x grid-margin-x">
+				<div class="cell small-6">
+				
+					<div class="site-branding">
+						<?php
+						the_custom_logo();
+						if ( is_front_page() && is_home() ) :
+							?>
+							<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+							<?php
+						else :
+							?>
+							<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+							<?php
+						endif;
+						$computerlaptopwebsite_description = get_bloginfo( 'description', 'display' );
+						if ( $computerlaptopwebsite_description || is_customize_preview() ) :
+							?>
+							<p class="site-description"><?php echo $computerlaptopwebsite_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
+						<?php endif; ?>
+					</div><!-- .site-branding -->
+				
+				</div>
+
+				<div class="cell small-6">
+				
+					<nav id="site-navigation" class="main-navigation">
+						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'computerlaptopwebsite' ); ?></button>
+						<?php
+						wp_nav_menu(
+							array(
+								'theme_location' => 'menu-primary',
+								'menu_id'        => 'primary-menu',
+							)
+						);
+						?>
+					</nav><!-- #site-navigation -->
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+
 	</header><!-- #masthead -->
