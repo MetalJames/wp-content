@@ -1,0 +1,41 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 891.76 773.33">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 310.41px;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #fff;
+        font-family: HelveticaNeue, Helvetica Neue;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #f1f2f2;
+        stroke-miterlimit: 10;
+        stroke-width: 20px;
+      }
+
+      .cls-3 {
+        font-size: 60px;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(120.91 401.42)">AGH</text>
+  <path class="cls-2" d="M495.71,704.76C255,704.76,59.82,586,59.82,439.47S255,174.18,495.71,174.18" transform="translate(-49.82 -126.18)"/>
+  <path class="cls-2" d="M495.71,136.18c240.73,0,435.88,118.77,435.88,265.29S736.44,666.76,495.71,666.76" transform="translate(-49.82 -126.18)"/>
+  <text class="cls-3" transform="translate(68.82 744.47)">advanced gaming ha<tspan class="cls-4" x="561.29" y="0">r</tspan><tspan x="580.19" y="0">dwa</tspan><tspan class="cls-5" x="693.47" y="0">r</tspan><tspan class="cls-6" x="712.37" y="0">e</tspan></text>
+</svg>
