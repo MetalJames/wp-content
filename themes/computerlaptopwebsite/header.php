@@ -16,7 +16,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-
+	<link rel="stylesheet" href="./css/header.css">
 	<?php wp_head(); ?>
 </head>
 
@@ -25,7 +25,7 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'computerlaptopwebsite' ); ?></a>
 
-	<header id="masthead" class="site-header">
+	<header id="masthead" style="background-color:#000" class="site-header myHeader">
 
 
 	<!--Foundation here-->
@@ -34,6 +34,8 @@
 				<div class="cell small-6">
 				
 					<div class="site-branding">
+					<img src="<?php echo get_template_directory_uri();?>/assets/img/AGH_logo.svg" style="width: 120px; margin: 10px auto;" alt="agh logo">
+
 						<?php
 						the_custom_logo();
 						if ( is_front_page() && is_home() ) :
@@ -56,7 +58,7 @@
 
 				<div class="cell small-6">
 				
-					<nav id="site-navigation" class="main-navigation">
+					<nav id="site-navigation" class="main-navigation" style="color:#fff">
 						<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'computerlaptopwebsite' ); ?></button> -->
 						<?php
 						wp_nav_menu(
