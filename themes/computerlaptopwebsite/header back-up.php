@@ -36,14 +36,29 @@
 					<div class="site-branding">
 					<img src="<?php echo get_template_directory_uri();?>/assets/img/AGH_logo.svg" style="width: 120px; margin: 10px auto;" alt="agh logo">
 
-
+						<?php
+						the_custom_logo();
+						if ( is_front_page() && is_home() ) :
+							?>
+							<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+							<?php
+						else :
+							?>
+							<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+							<?php
+						endif;
+						$computerlaptopwebsite_description = get_bloginfo( 'description', 'display' );
+						if ( $computerlaptopwebsite_description || is_customize_preview() ) :
+							?>
+							<p class="site-description"><?php echo $computerlaptopwebsite_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
+						<?php endif; ?>
 					</div><!-- .site-branding -->
 				
 				</div>
 
 				<div class="cell small-6">
 				
-					<nav id="site-navigation" class="main-navigation">
+					<nav id="site-navigation" class="main-navigation" style="color:#fff">
 						<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'computerlaptopwebsite' ); ?></button> -->
 						<?php
 						wp_nav_menu(
