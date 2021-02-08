@@ -156,3 +156,23 @@ require get_template_directory() . '/inc/template-functions.php';
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
+
+// Enqueuing block edito assets
+function computerlaptopwebsite_enqueue_block_editor_assets() {
+	wp_enqueue_script(
+		'editor-script',
+		get_template_directory_uri() . '/assets/js/editor.js',
+		array( 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' )
+	);
+}
+add_action( 'enqueue_block_editor_assets', 'computerlaptopwebsite_enqueue_block_editor_assets' );
+
+// Enqueuing block assets
+
+function computerlaptopwebsite_enqueue_block_assets() {
+    wp_enqueue_style( 
+		'blocks-style', 
+		get_template_directory_uri() . '/assets/css/blocks.css'
+	);
+}
+add_action( 'enqueue_block_assets', 'computerlaptopwebsite_enqueue_block_assets' );
