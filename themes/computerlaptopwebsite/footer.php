@@ -62,6 +62,9 @@
 		
 
 		<div class="site-info">
+
+
+		<img src="<?php echo get_template_directory_uri();?>/assets/img/AGH_logo.svg" alt="agh logo">
 			<!-- <img src="./assets/img/agh_logo.svg" alt="AGH logo"><br> -->
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'computerlaptopwebsite' ) ); ?>">
 				<?php
