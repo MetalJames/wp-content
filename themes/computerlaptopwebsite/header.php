@@ -40,7 +40,7 @@
 				
 				</div>
 
-				<div class="cell small-6">
+				<div class="cell small-6 myAlignClass">
 				
 					<nav id="site-navigation" class="main-navigation">
 						<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'computerlaptopwebsite' ); ?></button> -->
