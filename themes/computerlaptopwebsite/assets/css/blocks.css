@@ -21,3 +21,70 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.wp-block-code {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+}
+
+.entry-content ul{
+    list-style-type: circle;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-block-preformatted {
+    width: 80%;
+    margin: auto;
+    font-weight: bold;
+}
+
+.wp-block-pullquote:not(.is-style-solid-color),
+blockquote, blockquote p{
+    color: #551A8B !important;
+    font-style: italic;
+}
+
+.wp-block-table {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wp-block-verse{
+    width: 80%;
+    margin: auto;
+    font-weight: bold;
+}
+
+.wp-block-image {
+    width: 80%;
+    margin: auto;
+    font-weight: bold;
+}
+
+.wp-block-gallery.blocks-gallery-grid {
+    /* not sure about this yet I am planing to have it the same way*/
+}
+
+.wp-block-audio {
+    width: 200px;
+    margin-right: 20%;
+    margin-left: auto;
+}
+
+.wp-block-cover-image.has-background-dim:not([class*=-background-color]), .wp-block-cover.has-background-dim:not([class*=-background-color]){
+    width: 100%;
+    border: 2px solid #000;
+}
+
+.wp-block-media-text {
+    width: 80%;
+    margin: auto;
+    font-weight: bold;
+}
