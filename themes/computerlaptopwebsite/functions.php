@@ -157,6 +157,11 @@ require get_template_directory() . '/inc/template-functions.php';
  */
 require get_template_directory() . '/inc/customizer.php';
 
+/**
+ * woocommerce additions.
+ */
+require get_template_directory() . '/inc/woocommerce.php';
+
 // Enqueuing block edito assets
 function computerlaptopwebsite_enqueue_block_editor_assets() {
 	wp_enqueue_script(
@@ -165,7 +170,7 @@ function computerlaptopwebsite_enqueue_block_editor_assets() {
 		array( 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' )
 	);
 }
-add_action( 'enqueue_block_editor_assets', 'computerlaptopwebsite_enqueue_block_editor_assets' );
+add_action( 'enqueue_block_editor_assets', 'yes_enqueue_block_editor_assets' );
 
 // Enqueuing block assets
 
