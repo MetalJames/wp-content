@@ -157,3 +157,16 @@ blockquote, blockquote p{
     width: 80%;
     margin: auto;
 }
+
+/* form detailes here */
+
+div.wpforms-container-full, div.wpforms-container-full .wpforms-form {
+    width: 80% !important;
+    margin: auto;
+    font-weight: bold;
+}
+
+
+.wpforms-field-container {
+
+}
