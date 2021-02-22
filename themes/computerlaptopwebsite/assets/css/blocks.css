@@ -161,12 +161,10 @@ blockquote, blockquote p{
 /* form detailes here */
 
 div.wpforms-container-full, div.wpforms-container-full .wpforms-form {
-    width: 80% !important;
+    width: 80%;
     margin: auto;
-    font-weight: bold;
 }
 
-
-.wpforms-field-container {
-
+div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium{
+    max-width: 60%;
 }
