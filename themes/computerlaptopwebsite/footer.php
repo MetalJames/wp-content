@@ -11,7 +11,7 @@
 
 ?>
 
-<div style="background-color:#000; display:flex; flex-direction: column; ALIGN-ITEMS: center; color:#fff;">
+<div style="background-color:#000; display:flex; flex-direction: column; ALIGN-ITEMS: center; color:#fff; font-weight: bold;">
 
 <!-- <link rel="stylesheet" href="./css/footer.css"> -->
 
@@ -24,7 +24,7 @@
 						<li><a href="https://">Home</a></li>
 						<li><a href="https://">Cart</a></li>
 						<li><a href="https://">About Us</a></li>
-						<li><a href="https://">Contact</a></li>
+						<li><a href="https://">Get in Touch</a></li>
 					</ul>
 				</div>			
 			</nav>
