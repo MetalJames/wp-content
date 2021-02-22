@@ -160,11 +160,85 @@ blockquote, blockquote p{
 
 /* form detailes here */
 
+.post-164 .has-text-align-center {
+    background-color: #473082;
+    margin-bottom: 0!important;
+    padding-top: 20px!important;
+    padding-bottom: 8px!important;
+    color: #fff !important;
+}
+
+.post-164 p {
+    background-color: #473082;
+    margin-bottom: 0!important;
+    padding-bottom: 8px!important;
+    width: 100%!important;
+    color: #fff !important;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 0 0 0 !important;
+}
+
+div.wpforms-container-full {
+    margin: 0 0 0 !important;
+}
+
 div.wpforms-container-full, div.wpforms-container-full .wpforms-form {
-    width: 80%;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.wpforms-container-full, div.wpforms-container-full .wpforms-form {
+    width: 100%;
+    background: linear-gradient(0deg, #408aa0, #473082);
+    padding: 2rem;
+}
+
+div.wpforms-container-full .wpforms-form input.wpforms-field-medium, 
+div.wpforms-container-full .wpforms-form select.wpforms-field-medium, 
+div.wpforms-container-full .wpforms-form .wpforms-field-row.wpforms-field-medium {
+    max-width: 100% !important;
 }
 
 div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium{
-    max-width: 60%;
+    max-width: 100%;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field-label {
+    color: #fff !important;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field-sublabel {
+    color: #fff !important;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
+    color: #fff !important;
+}
+
+div.wpforms-container-full .wpforms-form input[type=submit], 
+div.wpforms-container-full .wpforms-form button[type=submit], 
+div.wpforms-container-full .wpforms-form .wpforms-page-button{
+    width: 375px !important;
+    color: #fff !important;
+    background-color: #0389ce !important;
+    box-shadow: 1px 1px 3px #808080;
+    border: 3px solid transparent !important;
+    transition: all .5s;
+}
+
+div.wpforms-container-full:hover .wpforms-form:hover input[type=submit]:hover, 
+div.wpforms-container-full:hover .wpforms-form:hover button[type=submit]:hover, 
+div.wpforms-container-full:hover .wpforms-form:hover .wpforms-page-button:hover {
+    width: 375px !important;
+    color: #0389ce !important;
+    background-color: #fff !important;
+    box-shadow: 1px 1px 3px #808080;
+    border: 3px solid #0389ce  !important;
+    transition: all .5s;
 }
