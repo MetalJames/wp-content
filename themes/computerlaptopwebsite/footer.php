@@ -11,14 +11,11 @@
 
 ?>
 
-<div style="background-color:#000; display:flex; flex-direction: column; ALIGN-ITEMS: center; color:#fff; font-weight: bold;">
-
-
+<div class="myVersionFooter">
 
 		<div class="footerLinks grid-x grid-margin-x">
 
-			<nav id="footer-navigation" class="main-navigation cell large-12 medium-12 grid-x" 
-										style="display:flex; justify-content: center;">
+			<nav id="footer-navigation" class="main-navigation cell large-12 medium-12 grid-x">
 						<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Primary Menu</button> -->
 				<div class="menu-footer-menu-container">
 					<ul id="footer-menu" class="menu">
@@ -34,21 +31,21 @@
 					
 					<ul class="social-media" style="display:flex; justify-content: center;">
 						
-							<li class="facebook" style="list-style: none">
+							<li class="facebook">
 								<a href="https://facebook.com" target="_blank">
-									<img style="width:60px;" src="<?php echo get_template_directory_uri();?>/assets/img/facebook_logo.png" alt="facebook logo">
+									<img src="<?php echo get_template_directory_uri();?>/assets/img/facebook_logo.png" alt="facebook logo">
 								</a>
 							</li>
 						
-							<li class="twitter" style="list-style: none">
+							<li class="twitter">
 								<a href="https://twitter.com" target="_blank">
-									<img style="width:60px;" src="<?php echo get_template_directory_uri();?>/assets/img/twitter_logo.png" alt="twitter logo logo">
+									<img src="<?php echo get_template_directory_uri();?>/assets/img/twitter_logo.png" alt="twitter logo logo">
 								</a>
 							</li>
 						
-							<li class="instagram" style="list-style: none">
+							<li class="instagram">
 								<a href="https://instagram.com" target="_blank">
-									<img style="width:60px;" src="<?php echo get_template_directory_uri();?>/assets/img/instagram_logo.png" alt="instagram logo">
+									<img src="<?php echo get_template_directory_uri();?>/assets/img/instagram_logo.png" alt="instagram logo">
 								</a>
 							</li>
 						
@@ -64,7 +61,7 @@
 
 		
 
-		<div class="site-info" style="text-align: center;">
+		<div class="site-info">
 
 			<!-- <img src="./assets/img/agh_logo.svg" alt="AGH logo"><br> -->
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'computerlaptopwebsite' ) ); ?>">
