@@ -24,23 +24,23 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'computerlaptopwebsite' ); ?></a>
 
-	<header id="masthead" style="background-color:#000" class="site-header myHeader">
+	<header id="masthead" class="site-header">
 
 
 	<!--Foundation here-->
-		<div class="grid-container">
-			<div class="grid-x grid-margin-x">
-				<div class="cell small-6">
+		<div>
+			<div class="grid-x grid-padding-x">
+				<div class="cell large-2 small-6">
 				
 					<div class="site-branding">
-					<img src="<?php echo get_template_directory_uri();?>/assets/img/AGH_logo.svg" style="width: 120px; margin: 10px auto;" alt="agh logo">
+					<img  class="headerLogo" src="<?php echo get_template_directory_uri();?>/assets/img/AGH_logo.svg" alt="agh logo">
 
 
 					</div><!-- .site-branding -->
 				
 				</div>
 
-				<div class="cell small-6 myAlignClass">
+				<div class="cell large-8 small-6 myAlignClass">
 				
 					<nav id="site-navigation" class="main-navigation">
 						<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'computerlaptopwebsite' ); ?></button> -->
@@ -55,6 +55,9 @@
 					</nav><!-- #site-navigation -->
 
 				</div>
+
+				<div class="cell large-2"></div>
+
 			</div>
 		</div>
 

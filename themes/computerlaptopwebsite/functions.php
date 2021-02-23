@@ -182,6 +182,14 @@ function computerlaptopwebsite_enqueue_block_assets() {
 }
 add_action( 'enqueue_block_assets', 'computerlaptopwebsite_enqueue_block_assets' );
 
+function computerlaptopwebsite_enqueue_header_assets() {
+    wp_enqueue_style( 
+		'headers-style', 
+		get_template_directory_uri() . '/assets/css/header.css'
+	);
+}
+add_action( 'enqueue_block_assets', 'computerlaptopwebsite_enqueue_header_assets' );
+
 function computerlaptopwebsite_enqueue_footer_assets() {
     wp_enqueue_style( 
 		'footers-style', 
