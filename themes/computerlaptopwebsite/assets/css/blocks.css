@@ -83,6 +83,12 @@ blockquote, blockquote p{
     justify-content: center;
 }
 
+.wp-block-media-text__media img, .wp-block-media-text__media video {
+    /* width: 80% !important;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
 .wp-block-gallery.blocks-gallery-grid {
     /* not sure about this yet I am planing to have it the same way*/
 }
@@ -145,6 +151,7 @@ blockquote, blockquote p{
     width: 80%;
     margin: auto;
     font-weight: bold;
+    background-color: lightgray;
 }
 
 .wp-block-embed__wrapper {
@@ -160,6 +167,12 @@ blockquote, blockquote p{
 .components-placeholder {
     width: 80%;
     margin: auto;
+}
+
+/* about us details here */
+
+.post-32 .has-text-align-center {
+    margin-top: 30px;
 }
 
 /* form detailes here */
