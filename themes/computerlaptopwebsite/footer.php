@@ -53,7 +53,7 @@
 					
 			</nav><!-- #social-media-navigation -->
 
-			<img src="<?php echo get_template_directory_uri();?>/assets/img/AGH_logo.svg" style="width: 120px; margin: 10px auto;" alt="agh logo">
+			<img class="mainLogo" src="<?php echo get_template_directory_uri();?>/assets/img/AGH_logo.svg" alt="agh logo">
 
 		</div>
 
