@@ -13,11 +13,12 @@
 
 <div style="background-color:#000; display:flex; flex-direction: column; ALIGN-ITEMS: center; color:#fff; font-weight: bold;">
 
-<!-- <link rel="stylesheet" href="./css/footer.css"> -->
+
 
 		<div class="footerLinks grid-x grid-margin-x">
 
-			<nav id="footer-navigation" class="main-navigation cell large-12 medium-12 grid-x" style="display:flex; justify-content: center;">
+			<nav id="footer-navigation" class="main-navigation cell large-12 medium-12 grid-x" 
+										style="display:flex; justify-content: center;">
 						<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Primary Menu</button> -->
 				<div class="menu-footer-menu-container">
 					<ul id="footer-menu" class="menu">
@@ -63,7 +64,7 @@
 
 		
 
-		<div class="site-info">
+		<div class="site-info" style="text-align: center;">
 
 			<!-- <img src="./assets/img/agh_logo.svg" alt="AGH logo"><br> -->
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'computerlaptopwebsite' ) ); ?>">
@@ -72,7 +73,7 @@
 				printf( esc_html__( 'Proudly powered by %s', 'computerlaptopwebsite' ), 'WordPress' );
 				?>
 			</a>
-			<span class="sep"> | </span><br>
+			<span class="sep"></span><br>
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'computerlaptopwebsite' ), 'computerlaptopwebsite', '<a href="http://underscores.me/">Volodya Ruzhak</a>' );
@@ -81,6 +82,7 @@
 	</footer><!-- #colophon -->
 
 </div>
+
 <!-- #page -->
 
 <?php wp_footer(); ?>
