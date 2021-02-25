@@ -282,3 +282,43 @@ div.wpforms-container-full:hover .wpforms-form:hover .wpforms-page-button:hover 
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
+/* single product related styling */
+
+.woocommerce .single-product {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.woocommerce div.product div.images .flex-control-thumbs li img {
+    padding-right: 10px;
+}
+
+.product-type-simple .entry-header h1 {
+    display: none;
+}
+
+.entry-summary h1 {
+    font-size: 2.5rem;
+}
+
+.woocommerce div.product .woocommerce-tabs .panel h2 {
+    display: none;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* woocommerce shop page styling */
+
+.woocommerce .columns-3{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
