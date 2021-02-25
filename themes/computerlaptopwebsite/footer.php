@@ -19,10 +19,10 @@
 						<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Primary Menu</button> -->
 				<div class="menu-footer-menu-container">
 					<ul id="footer-menu" class="menu">
-						<li><a href="https://computerlaptopsalewebsite.local/shop/">Shop</a></li>
+						<li><a href="https://computerlaptopsalewebsite.local/shop/">Shop AGH</a></li>
 						<li><a href="https://computerlaptopsalewebsite.local/cart/">Cart</a></li>
 						<li><a href="https://computerlaptopsalewebsite.local/about-us/">About Us</a></li>
-						<li><a href="https://">Get in Touch</a></li>
+						<li><a href="https://computerlaptopsalewebsite.local/contact-us/">Get in Touch</a></li>
 					</ul>
 				</div>			
 			</nav>
@@ -53,7 +53,7 @@
 					
 			</nav><!-- #social-media-navigation -->
 
-			<img class="mainLogo" src="<?php echo get_template_directory_uri();?>/assets/img/AGH_logo.svg" alt="agh logo">
+			<a class="mainLogo" href="https://computerlaptopsalewebsite.local/?cache-buster=64"><img src="<?php echo get_template_directory_uri();?>/assets/img/AGH_logo.svg" alt="agh logo"></a>
 
 		</div>
 
