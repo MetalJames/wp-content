@@ -21,7 +21,7 @@
 					<ul id="footer-menu" class="menu">
 						<li><a href="https://">Home</a></li>
 						<li><a href="https://">Cart</a></li>
-						<li><a href="https://">About Us</a></li>
+						<li><a href="https://computerlaptopsalewebsite.local/about-us/">About Us</a></li>
 						<li><a href="https://">Get in Touch</a></li>
 					</ul>
 				</div>			
