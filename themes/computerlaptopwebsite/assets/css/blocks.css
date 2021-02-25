@@ -343,9 +343,65 @@ div.wpforms-container-full:hover .wpforms-form:hover .wpforms-page-button:hover 
 
 .woocommerce-cart-form {
     border-top: 3px solid #000;
-    border-bottom: 3px solid #000;
+    /* border-bottom: 3px solid #000; */
+}
+
+.woocommerce-cart-form__cart-item .cart-item {
+        border-bottom: 3px solid #000 !important;
 }
 
 .woocommerce table.shop_table {
-    border: transparent !important;
+    border: 1px solid transparent !important;
+}
+
+.woocommerce table.shop_table thead{
+    background-color: transparent !important;
+    border: 1px solid transparent !important;
+}
+
+.woocommerce table.shop_table td {
+    border-top: 1px solid transparent !important;
+}
+
+#add_payment_method table.cart img, .woocommerce-cart table.cart img, .woocommerce-checkout table.cart img {
+    width: 30% !important;
+}
+
+
+.woocommerce-cart table.cart .product-thumbnail {
+    text-align: center;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: transparent !important;
+}
+
+.woocommerce-page table.cart td.actions {
+    margin-top: 15px !important;
+    border-top: 3px solid #000 !important;
+}
+
+.woocommerce-page table.cart td.actions .coupon {
+    width: 100%;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.woocommerce-page table.cart td.actions .coupon button {
+    background-color: transparent !important;
+}
+
+td.product-name a {
+    color: #111111;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.woocommerce #content table.cart td.actions .input-text, 
+.woocommerce table.cart td.actions .input-text, 
+.woocommerce-page #content table.cart td.actions .input-text, 
+.woocommerce-page table.cart td.actions .input-text {
+    width: auto !important;
 }
