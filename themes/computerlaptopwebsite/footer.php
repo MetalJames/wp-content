@@ -19,8 +19,8 @@
 						<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Primary Menu</button> -->
 				<div class="menu-footer-menu-container">
 					<ul id="footer-menu" class="menu">
-						<li><a href="https://">Home</a></li>
-						<li><a href="https://">Cart</a></li>
+						<li><a href="https://computerlaptopsalewebsite.local/shop/">Shop</a></li>
+						<li><a href="https://computerlaptopsalewebsite.local/cart/">Cart</a></li>
 						<li><a href="https://computerlaptopsalewebsite.local/about-us/">About Us</a></li>
 						<li><a href="https://">Get in Touch</a></li>
 					</ul>
