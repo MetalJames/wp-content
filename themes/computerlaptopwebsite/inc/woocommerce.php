@@ -6,7 +6,7 @@ function computerlaptopwebsite_woocommerce_single_product_summury_subtitle() {
 }
 add_action( 'woocommerce_single_product_summary', 'computerlaptopwebsite_woocommerce_single_product_summury_subtitle', 2 );
 
-function computerlaptopwebsite_woocommerce_before_add_to_cart_quantity_test() {
-    echo '<span style="color:red">Look at the amazing price!!!</span>';
-}
-add_action ( 'woocommerce_before_add_to_cart_quantity', 'computerlaptopwebsite_woocommerce_before_add_to_cart_quantity_test');
+// function computerlaptopwebsite_woocommerce_before_add_to_cart_quantity_test() {
+//     echo '<span style="color:red">Look at the amazing price!!!</span>';
+// }
+// add_action ( 'woocommerce_before_add_to_cart_quantity', 'computerlaptopwebsite_woocommerce_before_add_to_cart_quantity_test');
