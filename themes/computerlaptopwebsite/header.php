@@ -33,7 +33,7 @@
 				<div class="cell large-2 small-6">
 				
 					<div class="site-branding">
-					<img  class="headerLogo" src="<?php echo get_template_directory_uri();?>/assets/img/AGH_logo.svg" alt="agh logo">
+					<a href="https://computerlaptopsalewebsite.local/?cache-buster=64"><img  class="headerLogo" src="<?php echo get_template_directory_uri();?>/assets/img/AGH_logo.svg" alt="agh logo"></a>
 
 
 					</div><!-- .site-branding -->
