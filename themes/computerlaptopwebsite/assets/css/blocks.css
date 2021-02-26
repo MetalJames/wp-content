@@ -294,6 +294,12 @@ div.wpforms-container-full:hover .wpforms-form:hover .wpforms-page-button:hover 
     margin-top: 50px;
 }
 
+.woocommerce .single-product .price {
+    width: 100% !important;
+    color: darkgreen !important;
+    font-weight: bold;
+}
+
 .woocommerce div.product div.images .flex-control-thumbs li img {
     padding-right: 10px;
 }
