@@ -617,3 +617,10 @@ td.product-name a {
 .post-79 .entry-footer{
     max-width: 100% !important;
 }
+
+
+/* single post related styling */
+
+.post-135 h1{
+    margin-top: 30px !important;
+}
