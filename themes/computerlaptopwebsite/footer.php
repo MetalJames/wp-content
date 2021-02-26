@@ -16,7 +16,6 @@
 		<div class="footerLinks grid-x grid-margin-x">
 
 			<nav id="footer-navigation" class="main-navigation cell large-12 medium-12 grid-x">
-						<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Primary Menu</button> -->
 				<div class="menu-footer-menu-container">
 					<ul id="footer-menu" class="menu">
 						<li><a href="https://computerlaptopsalewebsite.local/shop/">Shop AGH</a></li>
@@ -27,9 +26,9 @@
 				</div>			
 			</nav>
 
-			<nav id="social-navigation" class="social-navigation cell large-12 medium-12 grid-x align-middle" style="display:flex; justify-content: center;">
+			<nav id="social-navigation" class="social-navigation cell large-12 medium-12 grid-x">
 					
-					<ul class="social-media" style="display:flex; justify-content: center;">
+					<ul class="social-media">
 						
 							<li class="facebook">
 								<a href="https://facebook.com" target="_blank">
@@ -62,8 +61,6 @@
 		
 
 		<div class="site-info">
-
-			<!-- <img src="./assets/img/agh_logo.svg" alt="AGH logo"><br> -->
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'computerlaptopwebsite' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
@@ -73,7 +70,7 @@
 			<span class="sep"></span><br>
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'computerlaptopwebsite' ), 'computerlaptopwebsite', '<a href="http://underscores.me/">Volodya Ruzhak</a>' );
+				printf( esc_html__( 'Theme: %1$s by %2$s.', 'computerlaptopwebsite' ), 'computerlaptopwebsite', '<a href="http://underscores.me/">Volodymyr Ruzhak</a>' );
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

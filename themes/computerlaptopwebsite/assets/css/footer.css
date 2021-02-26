@@ -7,9 +7,19 @@
     font-weight: bold;
 }
 
+.social-media {
+    display:flex; 
+    justify-content: center;
+}
+
 .social-media img {
     width:60px;
     margin-top: 20px;
+}
+
+.social-navigation {
+    display:flex; 
+    justify-content: center;
 }
 
 .social-navigation ul{
