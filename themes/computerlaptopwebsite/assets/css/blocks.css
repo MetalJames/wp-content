@@ -514,3 +514,47 @@ td.product-name a {
     color: #fff !important;
     transition: all 0.5;
 }
+
+/* login page */
+
+.post-79 {
+    width: 80%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.post-79 h2 {
+    margin-top: 30px;
+}
+
+.post-79 p {
+    width: 100% !important;
+}
+
+.post-79 .lost_password a {
+    color: #aaa !important;
+    transition: all .5s;
+}
+
+.post-79 .lost_password a:hover {
+    color: #000 !important;
+    transition: all .5s;
+}
+
+.post-79 .woocommerce .woocommerce-form-login 
+.woocommerce-form-login__submit {
+    border: 3px solid #000;
+    border-radius: 5px !important;
+    background-color: #fff !important;
+    color: #000 !important;
+    transition: all 0.5;
+}
+
+.post-79 .woocommerce .woocommerce-form-login 
+.woocommerce-form-login__submit:hover {
+    border: 3px solid #000;
+    border-radius: 5px !important;
+    background-color: #000 !important;
+    color: #fff !important;
+    transition: all 0.5;
+}
