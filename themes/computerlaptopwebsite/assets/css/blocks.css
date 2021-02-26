@@ -498,11 +498,9 @@ td.product-name a {
     width: 100% !important;
 }
 
-/* #payment .button {
+#payment .button {
     border: 3px solid #000;
     border-radius: 5px !important;
-    padding: 0 !important;
-    width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-} */
+    background-color: #fff !important;
+    color: #000 !important;
+}
