@@ -390,6 +390,22 @@ div.wpforms-container-full:hover .wpforms-form:hover .wpforms-page-button:hover 
     transition: all 0.5;
 }
 
+.post-76 .product_type_simple {
+    border: 3px solid #000 !important;
+    border-radius: 5px !important;
+    background-color: #fff !important;
+    color: #000 !important;
+    transition: all 0.5;
+}
+
+.post-76 .product_type_simple:hover {
+    border: 3px solid #000 !important;
+    border-radius: 5px !important;
+    background-color: #000 !important;
+    color: #fff !important;
+    transition: all 0.5;
+}
+
 
 
 /* woocommerce cart page styling */
