@@ -673,3 +673,37 @@ td.product-name a {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* main page some styling */
+
+.post-43 tfoot a {
+    width: 150px;
+    padding: 5px 10px;
+    border: 3px solid #000;
+    border-radius: 5px !important;
+    background-color: #fff !important;
+    color: #000 !important;
+    transition: all 0.5 !important;
+}
+
+.post-43 tfoot a:hover {
+    width: 150px;
+    border: 3px solid #000;
+    border-radius: 5px !important;
+    background-color: #000 !important;
+    color: #fff !important;
+    transition: all 0.5 !important;
+}
+
+.post-43 .wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
+    background-color: transparent !important;
+}
+
+.post-43 thead, tbody, tfoot {
+    background-color: transparent !important;
+    border: 1px solid transparent !important;
+}
+
+.post-43 .wp-block-table.is-style-stripes {
+    border-bottom: 1px solid transparent !important;
+}
