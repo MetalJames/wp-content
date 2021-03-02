@@ -30,6 +30,35 @@ function computerlaptopwebsite_customize_register( $wp_customize ) {
 			)
 		);
 	}
+$wp_customize->add_panel(
+	'social_media',
+	array(
+		'title' 		=> 'Social Media',
+		'description' 	=> 'Add social links',
+	)
+);
+
+$wp_customize->add_section(
+	'facebook_link',
+	array(
+		'title' => 'Facebook Link',
+		'panel' => 'social_media',
+	)
+);
+
+$wp_customize->add_setting(
+	'facebook_url'
+);
+
+$wp_customize->add_control(
+	'facebook_url',
+	array(
+		'label' => 'Facebook URL',
+		'section' => 'facebook_link',
+		'setting' => 'facebook_url',
+	)
+);
+
 }
 add_action( 'customize_register', 'computerlaptopwebsite_customize_register' );
 

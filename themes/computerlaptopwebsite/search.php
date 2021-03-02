@@ -10,7 +10,7 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
+	<main id="primary" class="site-main" style="width: 80%; margin-left:auto; margin-right:auto;">
 
 		<?php if ( have_posts() ) : ?>
 

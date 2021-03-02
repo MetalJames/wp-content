@@ -54,6 +54,23 @@
 						?>
 					</nav><!-- #site-navigation -->
 
+					<!-- <?php
+					$facebook_url = get_theme_mod( 'facebook_url' );
+					if ($facebook_url){ 
+						?>
+					<a class="facebook-link" href="<?php echo esc_url( get_theme_mod( 'facebook_url' ) );  ?>">Facebook</a>
+						<?
+					}
+					?> -->
+
+
+
+					<!-- <?php get_search_form() ?> -->
+
+
+
+					
+
 				</div>
 
 				<div class="cell large-2"></div>

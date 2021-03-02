@@ -136,6 +136,10 @@ function computerlaptopwebsite_scripts() {
 
 	wp_enqueue_script( 'foundation-script', get_template_directory_uri() . '/assets/js/vendor/foundation.js', array(), false, true);
 
+	wp_enqueue_style( 'header-style', get_template_directory_uri() . '/assets/css/header.css');
+
+	wp_enqueue_style( 'footer-style', get_template_directory_uri() . '/assets/css/footer.css');
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
@@ -170,7 +174,7 @@ function computerlaptopwebsite_enqueue_block_editor_assets() {
 		array( 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' )
 	);
 }
-add_action( 'enqueue_block_editor_assets', 'yes_enqueue_block_editor_assets' );
+add_action( 'enqueue_block_editor_assets', 'computerlaptopwebsite_enqueue_block_editor_assets' );
 
 // Enqueuing block assets
 
@@ -181,19 +185,3 @@ function computerlaptopwebsite_enqueue_block_assets() {
 	);
 }
 add_action( 'enqueue_block_assets', 'computerlaptopwebsite_enqueue_block_assets' );
-
-function computerlaptopwebsite_enqueue_header_assets() {
-    wp_enqueue_style( 
-		'headers-style', 
-		get_template_directory_uri() . '/assets/css/header.css'
-	);
-}
-add_action( 'enqueue_block_assets', 'computerlaptopwebsite_enqueue_header_assets' );
-
-function computerlaptopwebsite_enqueue_footer_assets() {
-    wp_enqueue_style( 
-		'footers-style', 
-		get_template_directory_uri() . '/assets/css/footer.css'
-	);
-}
-add_action( 'enqueue_block_assets', 'computerlaptopwebsite_enqueue_footer_assets' );
