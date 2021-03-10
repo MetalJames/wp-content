@@ -1,0 +1,8 @@
+2021-03-10T14:07:36+00:00 CRITICAL require(): Failed opening required '/Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/inc/post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 167
+
+2021-03-10T14:07:36+00:00 CRITICAL require(): Failed opening required '/Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/inc/post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 167
+
+2021-03-10T14:07:36+00:00 CRITICAL require(): Failed opening required '/Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/inc/post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 167
+
+2021-03-10T14:07:37+00:00 CRITICAL require(): Failed opening required '/Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/inc/post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 167
+

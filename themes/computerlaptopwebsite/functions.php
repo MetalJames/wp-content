@@ -164,6 +164,12 @@ require get_template_directory() . '/inc/customizer.php';
 /**
  * woocommerce additions.
  */
+require get_template_directory() . '/inc/post-types.php';
+
+
+/**
+ * custom post typesadditions.
+ */
 require get_template_directory() . '/inc/woocommerce.php';
 
 // Enqueuing block edito assets
