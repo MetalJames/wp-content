@@ -164,13 +164,12 @@ require get_template_directory() . '/inc/customizer.php';
 /**
  * woocommerce additions.
  */
-require get_template_directory() . '/inc/post-types.php';
-
+require get_template_directory() . '/inc/woocommerce.php';
 
 /**
- * custom post typesadditions.
+ * custom post type additions.
  */
-require get_template_directory() . '/inc/woocommerce.php';
+require get_template_directory() . '/inc/post-types.php';
 
 // Enqueuing block edito assets
 function computerlaptopwebsite_enqueue_block_editor_assets() {
