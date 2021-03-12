@@ -707,3 +707,11 @@ td.product-name a {
 .post-43 .wp-block-table.is-style-stripes {
     border-bottom: 1px solid transparent !important;
 }
+
+/* error-404 not-found stuff */
+
+.error-404, .not-found{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
