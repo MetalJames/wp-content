@@ -43,14 +43,14 @@ function computerlaptopwebsite_init() {
         'has_archive'        => true,
         'hierarchical'       => false,
         'menu_position'      => 20,
-        'supports'           => array( 'title', 'editor', 'author', 'thumbnail' ),
+        'supports'           => array( 'title', 'editor', 'author', 'excerpt', 'thumbnail' ),
         'taxonomies'         => array( 'category', 'post_tag' ),
         'show_in_rest'       => true,
     );
 
     // this is not working ask Matthew about it
     // register_post_type( 'computerlaptopwebsite_recipe', $args );
-    register_post_type( 'recipe', $args );
+    register_post_type( 'peripheral', $args );
 }
 add_action( 'init', 'computerlaptopwebsite_init' );
 

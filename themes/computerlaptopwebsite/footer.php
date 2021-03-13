@@ -12,6 +12,27 @@
 ?>
 
 
+<?php 
+
+$peripheral_args = array(
+    'post_type' => 'peripheral',
+    'posts_per_page' => 3,
+    );
+	
+    $peripheral_query = new WP_Query( $peripheral_args );
+
+    if ( $peripheral_query->have_posts() ) {
+        while ( $peripheral_query->have_posts() ){
+            $peripheral_query->the_post();
+            ?>
+            <h2><?php the_title(); ?></h2>
+			<p><?php the_excerpt(); ?></p>
+			<?php 
+        }
+    }
+?>
+
+
 
 <div class="myVersionFooter">
 

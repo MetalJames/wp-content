@@ -1,0 +1,220 @@
+2021-03-13T12:49:13+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:24
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/archive.php(51): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+# in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 24
+
+2021-03-13T12:49:17+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:24
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/archive.php(51): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+# in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 24
+
+2021-03-13T12:50:37+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:24
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/archive.php(51): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+# in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 24
+
+2021-03-13T12:52:44+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:24
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/archive.php(51): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+# in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 24
+
+2021-03-13T12:52:57+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:24
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/archive.php(51): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+# in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 24
+
+2021-03-13T12:55:25+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:24
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/archive.php(51): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+# in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 24
+
+2021-03-13T12:55:27+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:24
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/page.php(38): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+#6 / in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 24
+
+2021-03-13T12:58:51+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:24
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/404.php(60): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+#6 /U in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 24
+
+2021-03-13T12:59:11+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:24
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/archive.php(51): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+# in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 24
+
+2021-03-13T12:59:16+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:24
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/404.php(60): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+#6 /U in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 24
+
+2021-03-13T13:02:34+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:24
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/archive.php(51): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+# in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 24
+
+2021-03-13T13:14:00+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:24
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/single.php(40): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+#6 in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 24
+
+2021-03-13T13:14:40+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:24
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/page.php(38): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+#6 / in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 24
+
+2021-03-13T13:14:48+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:24
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/archive.php(51): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+# in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 24
+
+2021-03-13T13:17:55+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:24
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/single.php(40): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+#6 in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 24
+
+2021-03-13T13:18:01+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:24
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/archive.php(51): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+# in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 24
+
+2021-03-13T13:18:51+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:24
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/archive.php(51): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+# in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 24
+
+2021-03-13T13:39:49+00:00 CRITICAL Uncaught Error: Call to undefined function excerpt() in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:29
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/single.php(40): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+#6 /Users/vo in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 29
+
+2021-03-13T13:40:33+00:00 CRITICAL Uncaught Error: Call to undefined function post_excerpt() in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:29
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/single.php(40): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+#6 /Use in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 29
+
+2021-03-13T13:42:05+00:00 CRITICAL Uncaught Error: Call to undefined function excerpt() in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:29
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/single.php(40): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+#6 /Users/vo in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 29
+
+2021-03-13T13:42:15+00:00 CRITICAL Uncaught Error: Call to undefined function excerpt() in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:29
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/single.php(40): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+#6 /Users/vo in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 29
+
+2021-03-13T13:44:32+00:00 CRITICAL Uncaught Error: Call to undefined function excerpt() in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:29
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/page.php(38): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+#6 /Users/vova in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 29
+
