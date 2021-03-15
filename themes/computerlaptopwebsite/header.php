@@ -25,22 +25,21 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'computerlaptopwebsite' ); ?></a>
 
 	<header id="masthead" class="site-header">
-
-
 	<!--Foundation here-->
 		<div>
+		<!-- add margin -->
 			<div class="grid-x grid-padding-x">
-				<div class="cell large-2 small-6">
+			<!-- set properties for different sizes (desktop, tablet or smartphone) -->
+				<div class="cell large-2 medium-2 small-6">
 				
 					<div class="site-branding">
-					<a href="https://computerlaptopsalewebsite.local/?cache-buster=64"><img  class="headerLogo" src="<?php echo get_template_directory_uri();?>/assets/img/AGH_logo.svg" alt="agh logo"></a>
-
-
-					</div><!-- .site-branding -->
+						<a href="https://computerlaptopsalewebsite.local/?cache-buster=64"><img  class="headerLogo" src="<?php echo get_template_directory_uri();?>/assets/img/AGH_logo.svg" alt="agh logo"></a>
+					</div>
+					<!-- .site-branding -->
 				
 				</div>
-
-				<div class="cell large-8 small-6 myAlignClass">
+			<!-- set properties for different sizes (desktop, tablet or smartphone) -->
+				<div class="cell large-8 medium-10 small-6 myAlignClass">
 				
 					<nav id="site-navigation" class="main-navigation">
 						<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'computerlaptopwebsite' ); ?></button> -->
@@ -53,7 +52,7 @@
 						);
 						?>
 					</nav><!-- #site-navigation -->
-
+					<!-- add social media api -->
 					<!-- <?php
 					$facebook_url = get_theme_mod( 'facebook_url' );
 					if ($facebook_url){ 
@@ -62,24 +61,10 @@
 						<?
 					}
 					?> -->
-
-
-
-					<!-- <?php get_search_form() ?> -->
-
-
-
-					
-
 				</div>
-
+				<!-- empty div for proper alignment on desktop screens -->
 				<div class="cell large-2"></div>
-
 			</div>
 		</div>
-
-
-
-
-
 	</header><!-- #masthead -->
+</div>
