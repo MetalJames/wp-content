@@ -11,6 +11,7 @@
     width: 100px; 
     padding: 10px;
     margin: 20px auto;
+    z-index: 1000;
 }
 
 .main-navigation{

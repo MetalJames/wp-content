@@ -53,17 +53,20 @@
 						?>
 					</nav><!-- #site-navigation -->
 					<!-- add social media api -->
-					<!-- <?php
+				</div>
+				<!-- empty div for proper alignment on desktop screens -->
+				<div class="cell large-2">
+				
+				<!-- <?php
 					$facebook_url = get_theme_mod( 'facebook_url' );
 					if ($facebook_url){ 
 						?>
 					<a class="facebook-link" href="<?php echo esc_url( get_theme_mod( 'facebook_url' ) );  ?>">Facebook</a>
 						<?
 					}
-					?> -->
+				?> -->
+				
 				</div>
-				<!-- empty div for proper alignment on desktop screens -->
-				<div class="cell large-2"></div>
 			</div>
 		</div>
 	</header><!-- #masthead -->

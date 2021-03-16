@@ -20,3 +20,5 @@
 		} );
 	} );
 }( jQuery ) );
+
+$("document").foundation();
