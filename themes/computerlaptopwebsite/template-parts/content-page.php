@@ -16,7 +16,7 @@
 		?>
 	</header><!-- .entry-header -->
 
-	<?php computerlaptopwebsite_post_thumbnail(); ?>
+	<?php clw_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
@@ -24,7 +24,7 @@
 
 		wp_link_pages(
 			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'computerlaptopwebsite' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'clw' ),
 				'after'  => '</div>',
 			)
 		);
@@ -38,7 +38,7 @@
 				sprintf(
 					wp_kses(
 						/* translators: %s: Name of current post. Only visible to screen readers */
-						__( 'Edit <span class="screen-reader-text">%s</span>', 'computerlaptopwebsite' ),
+						__( 'Edit <span class="screen-reader-text">%s</span>', 'clw' ),
 						array(
 							'span' => array(
 								'class' => array(),

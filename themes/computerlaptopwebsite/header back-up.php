@@ -23,7 +23,7 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'computerlaptopwebsite' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'clw' ); ?></a>
 
 	<header id="masthead" style="background-color:#000" class="site-header myHeader">
 
@@ -47,10 +47,10 @@
 							<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 							<?php
 						endif;
-						$computerlaptopwebsite_description = get_bloginfo( 'description', 'display' );
-						if ( $computerlaptopwebsite_description || is_customize_preview() ) :
+						$clw_description = get_bloginfo( 'description', 'display' );
+						if ( $clw_description || is_customize_preview() ) :
 							?>
-							<p class="site-description"><?php echo $computerlaptopwebsite_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
+							<p class="site-description"><?php echo $clw_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 						<?php endif; ?>
 					</div><!-- .site-branding -->
 				
@@ -59,7 +59,7 @@
 				<div class="cell small-6">
 				
 					<nav id="site-navigation" class="main-navigation" style="color:#fff">
-						<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'computerlaptopwebsite' ); ?></button> -->
+						<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'clw' ); ?></button> -->
 						<?php
 						wp_nav_menu(
 							array(

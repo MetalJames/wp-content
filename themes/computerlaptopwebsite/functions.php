@@ -12,7 +12,7 @@ if ( ! defined( '_S_VERSION' ) ) {
 	define( '_S_VERSION', '1.0.0' );
 }
 
-if ( ! function_exists( 'computerlaptopwebsite_setup' ) ) :
+if ( ! function_exists( 'clw_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
 	 *
@@ -20,14 +20,14 @@ if ( ! function_exists( 'computerlaptopwebsite_setup' ) ) :
 	 * runs before the init hook. The init hook is too late for some features, such
 	 * as indicating support for post thumbnails.
 	 */
-	function computerlaptopwebsite_setup() {
+	function clw_setup() {
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
 		 * If you're building a theme based on Computer_Laptop_website, use a find and replace
-		 * to change 'computerlaptopwebsite' to the name of your theme in all the template files.
+		 * to change 'clw' to the name of your theme in all the template files.
 		 */
-		load_theme_textdomain( 'computerlaptopwebsite', get_template_directory() . '/languages' );
+		load_theme_textdomain( 'clw', get_template_directory() . '/languages' );
 
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
@@ -50,7 +50,7 @@ if ( ! function_exists( 'computerlaptopwebsite_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus(
 			array(
-				'menu-primary' => esc_html__( 'Primary', 'computerlaptopwebsite' ),
+				'menu-primary' => esc_html__( 'Primary', 'clw' ),
 			)
 		);
 
@@ -90,7 +90,7 @@ if ( ! function_exists( 'computerlaptopwebsite_setup' ) ) :
 		);
 	}
 endif;
-add_action( 'after_setup_theme', 'computerlaptopwebsite_setup' );
+add_action( 'after_setup_theme', 'clw_setup' );
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -99,22 +99,22 @@ add_action( 'after_setup_theme', 'computerlaptopwebsite_setup' );
  *
  * @global int $content_width
  */
-function computerlaptopwebsite_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'computerlaptopwebsite_content_width', 640 );
+function clw_content_width() {
+	$GLOBALS['content_width'] = apply_filters( 'clw_content_width', 640 );
 }
-add_action( 'after_setup_theme', 'computerlaptopwebsite_content_width', 0 );
+add_action( 'after_setup_theme', 'clw_content_width', 0 );
 
 /**
  * Register widget area.
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function computerlaptopwebsite_widgets_init() {
+function clw_widgets_init() {
 	register_sidebar(
 		array(
-			'name'          => esc_html__( 'Sidebar', 'computerlaptopwebsite' ),
+			'name'          => esc_html__( 'Sidebar', 'clw' ),
 			'id'            => 'sidebar',
-			'description'   => esc_html__( 'Add widgets here.', 'computerlaptopwebsite' ),
+			'description'   => esc_html__( 'Add widgets here.', 'clw' ),
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</section>',
 			'before_title'  => '<h2 class="widget-title">',
@@ -122,13 +122,13 @@ function computerlaptopwebsite_widgets_init() {
 		)
 	);
 }
-add_action( 'widgets_init', 'computerlaptopwebsite_widgets_init' );
+add_action( 'widgets_init', 'clw_widgets_init' );
 
 /**
  * Enqueue scripts and styles.
  */
-function computerlaptopwebsite_scripts() {
-	wp_enqueue_style( 'computerlaptopwebsite-style', get_stylesheet_uri(), array(), _S_VERSION );
+function clw_scripts() {
+	wp_enqueue_style( 'clw-style', get_stylesheet_uri(), array(), _S_VERSION );
 
 
 	// Foundation
@@ -144,7 +144,7 @@ function computerlaptopwebsite_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'computerlaptopwebsite_scripts' );
+add_action( 'wp_enqueue_scripts', 'clw_scripts' );
 
 /**
  * Custom template tags for this theme.
@@ -172,21 +172,21 @@ require get_template_directory() . '/inc/woocommerce.php';
 require get_template_directory() . '/inc/post-types.php';
 
 // Enqueuing block edito assets
-function computerlaptopwebsite_enqueue_block_editor_assets() {
+function clw_enqueue_block_editor_assets() {
 	wp_enqueue_script(
 		'editor-script',
 		get_template_directory_uri() . '/assets/js/editor.js',
 		array( 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' )
 	);
 }
-add_action( 'enqueue_block_editor_assets', 'computerlaptopwebsite_enqueue_block_editor_assets' );
+add_action( 'enqueue_block_editor_assets', 'clw_enqueue_block_editor_assets' );
 
 // Enqueuing block assets
 
-function computerlaptopwebsite_enqueue_block_assets() {
+function clw_enqueue_block_assets() {
     wp_enqueue_style( 
 		'blocks-style', 
 		get_template_directory_uri() . '/assets/css/blocks.css'
 	);
 }
-add_action( 'enqueue_block_assets', 'computerlaptopwebsite_enqueue_block_assets' );
+add_action( 'enqueue_block_assets', 'clw_enqueue_block_assets' );

@@ -15,7 +15,7 @@
 <?php 
 
 $peripheral_args = array(
-    'post_type' => 'peripheral',
+    'post_type' => 'clw_peripheral',
     'posts_per_page' => 3,
     );
 	
@@ -84,16 +84,16 @@ $peripheral_args = array(
 		
 
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'computerlaptopwebsite' ) ); ?>">
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'clw' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'computerlaptopwebsite' ), 'WordPress' );
+				printf( esc_html__( 'Proudly powered by %s', 'clw' ), 'WordPress' );
 				?>
 			</a>
 			<span class="sep"></span><br>
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'computerlaptopwebsite' ), 'computerlaptopwebsite', '<a href="http://underscores.me/">Volodymyr Ruzhak</a>' );
+				printf( esc_html__( 'Theme: %1$s by %2$s.', 'clw' ), 'clw', '<a href="http://underscores.me/">Volodymyr Ruzhak</a>' );
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

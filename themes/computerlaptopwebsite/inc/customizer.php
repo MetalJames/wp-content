@@ -10,7 +10,7 @@
  *
  * @param WP_Customize_Manager $wp_customize Theme Customizer object.
  */
-function computerlaptopwebsite_customize_register( $wp_customize ) {
+function clw_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
 	$wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
 
@@ -19,17 +19,20 @@ function computerlaptopwebsite_customize_register( $wp_customize ) {
 			'blogname',
 			array(
 				'selector'        => '.site-title a',
-				'render_callback' => 'computerlaptopwebsite_customize_partial_blogname',
+				'render_callback' => 'clw_customize_partial_blogname',
 			)
 		);
 		$wp_customize->selective_refresh->add_partial(
 			'blogdescription',
 			array(
 				'selector'        => '.site-description',
-				'render_callback' => 'computerlaptopwebsite_customize_partial_blogdescription',
+				'render_callback' => 'clw_customize_partial_blogdescription',
 			)
 		);
 	}
+
+// add social media panel
+
 $wp_customize->add_panel(
 	'social_media',
 	array(
@@ -37,6 +40,8 @@ $wp_customize->add_panel(
 		'description' 	=> 'Add social links',
 	)
 );
+
+// facebook
 
 $wp_customize->add_section(
 	'facebook_link',
@@ -59,15 +64,61 @@ $wp_customize->add_control(
 	)
 );
 
+// twitter
+
+$wp_customize->add_section(
+	'twitter_link',
+	array(
+		'title' => 'Twitter Link',
+		'panel' => 'social_media',
+	)
+);
+
+$wp_customize->add_setting(
+	'twitter_url'
+);
+
+$wp_customize->add_control(
+	'twitter_url',
+	array(
+		'label' => 'Twitter URL',
+		'section' => 'twitter_link',
+		'setting' => 'twitter_url',
+	)
+);
+
+// instagram
+
+$wp_customize->add_section(
+	'instagram_link',
+	array(
+		'title' => 'Instagram Link',
+		'panel' => 'social_media',
+	)
+);
+
+$wp_customize->add_setting(
+	'instagram_url'
+);
+
+$wp_customize->add_control(
+	'instagram_url',
+	array(
+		'label' => 'Instagram URL',
+		'section' => 'instagram_link',
+		'setting' => 'instagram_url',
+	)
+);
+
 }
-add_action( 'customize_register', 'computerlaptopwebsite_customize_register' );
+add_action( 'customize_register', 'clw_customize_register' );
 
 /**
  * Render the site title for the selective refresh partial.
  *
  * @return void
  */
-function computerlaptopwebsite_customize_partial_blogname() {
+function clw_customize_partial_blogname() {
 	bloginfo( 'name' );
 }
 
@@ -76,14 +127,14 @@ function computerlaptopwebsite_customize_partial_blogname() {
  *
  * @return void
  */
-function computerlaptopwebsite_customize_partial_blogdescription() {
+function clw_customize_partial_blogdescription() {
 	bloginfo( 'description' );
 }
 
 /**
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
-function computerlaptopwebsite_customize_preview_js() {
-	wp_enqueue_script( 'computerlaptopwebsite-customizer', get_template_directory_uri() . '/assets/js/customizer.js', array( 'customize-preview' ), _S_VERSION, true );
+function clw_customize_preview_js() {
+	wp_enqueue_script( 'clw-customizer', get_template_directory_uri() . '/assets/js/customizer.js', array( 'customize-preview' ), _S_VERSION, true );
 }
-add_action( 'customize_preview_init', 'computerlaptopwebsite_customize_preview_js' );
+add_action( 'customize_preview_init', 'clw_customize_preview_js' );
