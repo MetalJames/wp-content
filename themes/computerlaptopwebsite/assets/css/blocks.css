@@ -518,6 +518,11 @@ td.product-name a {
         width: 100% !important;
         text-align: right;
     }
+
+    .post-77 .woocommerce .quantity .qty {
+        margin-right: 0 !important;
+        margin-left: auto !important;
+    }
 }
 
 @media only screen and (min-width: 650px){
@@ -525,6 +530,11 @@ td.product-name a {
     .woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
         width: 30% !important;
         text-align: right;
+    }
+
+    .post-77 .woocommerce .quantity .qty {
+        margin-right: auto !important;
+        margin-left: auto !important;
     }
 }
 

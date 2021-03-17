@@ -20,5 +20,3 @@
 		} );
 	} );
 }( jQuery ) );
-
-$("document").foundation();

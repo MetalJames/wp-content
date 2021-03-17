@@ -22,14 +22,14 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				computerlaptopwebsite_posted_on();
-				computerlaptopwebsite_posted_by();
+				clw_posted_on();
+				clw_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php computerlaptopwebsite_post_thumbnail(); ?>
+	<?php clw_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
@@ -37,7 +37,7 @@
 			sprintf(
 				wp_kses(
 					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'computerlaptopwebsite' ),
+					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'clw' ),
 					array(
 						'span' => array(
 							'class' => array(),
@@ -50,7 +50,7 @@
 
 		wp_link_pages(
 			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'computerlaptopwebsite' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'clw' ),
 				'after'  => '</div>',
 			)
 		);
@@ -58,6 +58,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php computerlaptopwebsite_entry_footer(); ?>
+		<?php clw_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
