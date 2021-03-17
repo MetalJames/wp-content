@@ -71,3 +71,28 @@
     color: #fff;
     cursor:pointer;
 }
+
+/* wp_query(peripheral) related styling */
+
+.footer_peripherals_body {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer_peripherals_styling {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_peripherals_styling p{
+    margin: 0;
+}
+
+.footer_thumbnail {
+    width: 60px;
+}
+
+.page_break {
+    border-bottom: 1px solid #fff;
+}

@@ -25,11 +25,19 @@ $peripheral_args = array(
         while ( $peripheral_query->have_posts() ){
             $peripheral_query->the_post();
             ?>
-            <h2><?php the_title(); ?></h2>
-			<p><?php the_excerpt(); ?></p>
+			<div class="footer_peripherals_body">
+				<div class="footer_peripherals_styling">
+					<p class="footer_thumbnail"><?php the_post_thumbnail(); ?></p>
+					<h4><?php the_title(); ?></h6>
+					<p><?php the_excerpt(); ?></p>
+					<a href="<?php the_permalink() ?>">
+					<p class="page_break"></p>
+				</div>
+			</div>
 			<?php 
         }
     }
+	wp_reset_postdata();
 ?>
 
 
