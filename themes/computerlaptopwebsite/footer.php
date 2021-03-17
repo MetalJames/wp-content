@@ -28,10 +28,11 @@ $peripheral_args = array(
 			<div class="footer_peripherals_body">
 				<div class="footer_peripherals_styling">
 					<p class="footer_thumbnail"><?php the_post_thumbnail(); ?></p>
-					<h4><?php the_title(); ?></h6>
-					<p><?php the_excerpt(); ?></p>
-					<a href="<?php the_permalink() ?>">
-					<p class="page_break"></p>
+					<div class="text_info">
+						<h4><?php the_title(); ?></h6>
+						<p><?php the_excerpt(); ?></p>
+						<p class="underline_link_hover">Reed more &rarr;<a href="<?php the_permalink() ?>" class="postLinkBtn"> Here</a></p>
+					</div>
 				</div>
 			</div>
 			<?php 
