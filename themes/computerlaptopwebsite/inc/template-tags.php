@@ -146,3 +146,13 @@ if ( ! function_exists( 'wp_body_open' ) ) :
 		do_action( 'wp_body_open' );
 	}
 endif;
+
+
+function primer_post_format() {
+
+	$format = get_post_format();
+	$format = empty( $format ) ? 'standard' : $format;
+
+	printf( '<span class="post-format">%s</span>', esc_html( $format ) );
+
+}

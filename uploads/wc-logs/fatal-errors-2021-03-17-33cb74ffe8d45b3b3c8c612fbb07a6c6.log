@@ -174,3 +174,5 @@ Stack trace:
 
 =======
 >>>>>>> main
+2021-03-17T15:51:24+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/archive.php on line 56
+

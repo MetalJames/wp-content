@@ -1,3 +1,5 @@
+/* block's stylyng */
+
 .page {
     margin: 0 0 0 !important;
 }
@@ -28,18 +30,14 @@
     margin-right: auto;
 }
 
-.entry-content h3 {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+.post-thumbnail {
+    display: none;
 }
 
-.entry-content h4 {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
 .entry-content h5 {
     width: 80%;
     margin-left: auto;
@@ -187,6 +185,45 @@ blockquote, blockquote p{
     max-width: 80%;
 }
 
+
+
+
+
+/****************************** my custom and more detailed theme styling here stylyng ******************************/
+
+/** hiding not needed stuff **/
+
+aside #search-2,
+aside #search-3,
+aside #meta-2,
+aside #recent-comments-2 {
+    display: none;
+}
+
+
+/** changing recent posts and categories stuff **/
+
+aside #recent-posts-2,
+aside #categories-2,
+aside #archives-2 {
+    width: 50%;
+    display: inline-block;
+}
+
+aside #recent-posts-2 a,
+aside #categories-2 a {
+    color: #1779ba !important;
+    transition: .5s all;
+}
+
+
+aside #recent-posts-2 a:hover,
+aside #categories-2 a:hover {
+    color: #000 !important;
+}
+
+
+
 /* about us details here */
 
 .post-32 .has-text-align-center {
@@ -283,6 +320,7 @@ div.wpforms-container-full:hover .wpforms-form:hover .wpforms-page-button:hover 
 /* information after all pages */
 
 .entry-footer {
+    display: none;
     max-width: 80% !important;
     margin-left: auto;
     margin-right: auto;
