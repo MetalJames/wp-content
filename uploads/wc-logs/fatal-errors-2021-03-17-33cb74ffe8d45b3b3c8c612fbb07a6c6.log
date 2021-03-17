@@ -2,6 +2,7 @@
 
 2021-03-17T11:55:16+00:00 CRITICAL syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/inc/customizer.php on line 47
 
+<<<<<<< HEAD
 2021-03-17T13:31:29+00:00 CRITICAL Uncaught Error: Call to undefined function thumbnail() in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:28
 Stack trace:
 #0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
@@ -171,3 +172,5 @@ Stack trace:
 #5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
 #6 /Users/vovaruzhak in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 31
 
+=======
+>>>>>>> main
