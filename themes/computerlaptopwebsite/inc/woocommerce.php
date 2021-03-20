@@ -1,5 +1,5 @@
 <!-- here we can add, remove or give order or do some extra styling to woocommerce pages -->
-<?php
+<?php 
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 1 );
 
 // function clw_woocommerce_single_product_summury_subtitle() {
@@ -11,3 +11,4 @@ add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_t
 //     echo '<span style="color:red">Look at the amazing price!!!</span>';
 // }
 // add_action ( 'woocommerce_before_add_to_cart_quantity', 'clw_woocommerce_before_add_to_cart_quantity_test');
+?>

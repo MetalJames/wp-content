@@ -223,9 +223,36 @@ aside #categories-2 a:hover {
 
 /****************************** about us details here ******************************/
 
-.post-32 .has-text-align-center {
+.post-32 h2 {
     margin-top: 30px;
 }
+
+@media only screen and (min-width: 375px){
+    .wp-block-media-text {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .wp-block-media-text__content {
+        width: 100% !important;
+    }
+
+
+}
+
+@media only screen and (min-width: 1025px){
+    .wp-block-media-text {
+        display: grid !important;
+    }
+
+    .wp-block-media-text__content {
+        width: auto !important;
+    }
+
+    .post-32 .has-medium-font-size {
+        margin-top: 16 !important;
+    }
+}
+
 
 /****************************** form detailes here ******************************/
 
@@ -558,7 +585,7 @@ td.product-name a {
     }
 }
 
-@media only screen and (min-width: 650px){
+@media only screen and (min-width: 1000px){
 
     .woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
         width: 30% !important;

@@ -20,7 +20,7 @@
 
 }
 
-@media only screen and (min-width: 650px){
+@media only screen and (min-width: 1000px){
     .headerLogo {
         width: 6vw; 
         padding: 10px;
@@ -31,12 +31,26 @@
 
 /* menu/links font size setting */
 
-.main-navigation{
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.1vw;
-    font-weight: bold;
+@media only screen and (min-width: 375px){
+
+    .main-navigation{
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+
+    .main-navigation{
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.1vw;
+        font-weight: bold;
+    }
 }
 
 .menu a {
@@ -148,7 +162,7 @@
     }
 }
 
-@media only screen and (min-width: 650px){
+@media only screen and (min-width: 1000px){
     .social_panel {
         display: flex;
         justify-content: space-evenly;
