@@ -11,7 +11,7 @@
 
 ?>
 
-
+<!-- custom WP_Query for the footer custom peripheral posts -->
 <?php 
 
 $peripheral_args = array(
@@ -41,12 +41,13 @@ $peripheral_args = array(
 	wp_reset_postdata();
 ?>
 
-
+<!-- footer start here and include links to the pages, logo, copyright -->
 
 <div class="myVersionFooter">
 
 		<div class="footerLinks grid-x grid-margin-x">
 
+		<!-- menu links -->
 			<nav id="footer-navigation" class="main-navigation cell large-12 medium-12 grid-x">
 				<div class="menu-footer-menu-container">
 					<ul id="footer-menu" class="menu">
@@ -58,6 +59,7 @@ $peripheral_args = array(
 				</div>			
 			</nav>
 
+		<!-- #social-media-navigation -->
 			<nav id="social-navigation" class="social-navigation cell large-12 medium-12 grid-x">
 					
 					<ul class="social-media">
@@ -82,7 +84,8 @@ $peripheral_args = array(
 						
 					</ul>
 					
-			</nav><!-- #social-media-navigation -->
+			</nav>
+			<!-- #social-media-navigation -->
 
 			<a class="mainLogo" href="https://computerlaptopsalewebsite.local/?cache-buster=64"><img src="<?php echo get_template_directory_uri();?>/assets/img/AGH_logo.svg" alt="agh logo"></a>
 
@@ -91,7 +94,7 @@ $peripheral_args = array(
 	<footer id="colophon" class="site-footer">
 
 		
-
+	<!-- copyright and related information -->
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'clw' ) ); ?>">
 				<?php

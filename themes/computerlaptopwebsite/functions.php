@@ -136,9 +136,11 @@ function clw_scripts() {
 
 	wp_enqueue_script( 'foundation-script', get_template_directory_uri() . '/assets/js/vendor/foundation.js', array(), false, true);
 
+	// start of extra css specifically for the footer and the header
 	wp_enqueue_style( 'header-style', get_template_directory_uri() . '/assets/css/header.css');
 
 	wp_enqueue_style( 'footer-style', get_template_directory_uri() . '/assets/css/footer.css');
+	// end of extra css specifically for the footer and the header
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

@@ -1,7 +1,7 @@
 <?php
 // * Custom post types
 
-// always resave permalinks to make it work
+// * always resave permalinks to make it work
 
 function clw_init() {
     $labels = array(
@@ -48,8 +48,6 @@ function clw_init() {
         'show_in_rest'       => true,
     );
 
-    // this is not working ask Matthew about it
-    // register_post_type( 'clw_recipe', $args );
     register_post_type( 'clw_peripheral', $args );
 }
 add_action( 'init', 'clw_init' );

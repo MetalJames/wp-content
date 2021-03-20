@@ -1,3 +1,4 @@
+<!-- here we can add, remove or give order or do some extra styling to woocommerce pages -->
 <?php
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 1 );
 

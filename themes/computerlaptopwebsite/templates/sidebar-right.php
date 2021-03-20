@@ -15,6 +15,7 @@
 get_header();
 ?>
 
+<!-- foundation styling -->
 <div class="grid-container">
 	<div class="grid-x grid-margin-x grid-margin-y">
 
@@ -23,6 +24,7 @@ get_header();
 			<main id="primary" class="site-main">
 
 				<?php
+				// start
 				while ( have_posts() ) :
 					the_post();
 
