@@ -1,3 +1,5 @@
+/* my footer css */
+
 .myVersionFooter{
     background-color:#000; 
     display:flex; 
@@ -114,6 +116,8 @@
     color: #fff !important;
     font-weight: bold;
 }
+
+/* underline hover */
 
 .underline_link_hover a {
     display: inline;

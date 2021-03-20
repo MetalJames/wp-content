@@ -8,7 +8,7 @@
  */
 
 ( function( $ ) {
-	// Site title and description.
+	// Site title and description functions is here
 	wp.customize( 'blogname', function( value ) {
 		value.bind( function( to ) {
 			$( '.site-title a' ).text( to );

@@ -1,4 +1,4 @@
-/* block's stylyng */
+/****************************** block's stylyng ******************************/
 
 .page {
     margin: 0 0 0 !important;
@@ -185,10 +185,6 @@ blockquote, blockquote p{
     max-width: 80%;
 }
 
-
-
-
-
 /****************************** my custom and more detailed theme styling here stylyng ******************************/
 
 /** hiding not needed stuff **/
@@ -196,19 +192,21 @@ blockquote, blockquote p{
 aside #search-2,
 aside #search-3,
 aside #meta-2,
-aside #recent-comments-2 {
+aside #recent-comments-2,
+aside #recent-posts-2,
+aside #categories-2,
+aside #archives-2 {
     display: none;
 }
 
+/****************************** changing recent posts and categories stuff ******************************/
 
-/** changing recent posts and categories stuff **/
-
-aside #recent-posts-2,
+/* aside #recent-posts-2,
 aside #categories-2,
 aside #archives-2 {
     width: 50%;
     display: inline-block;
-}
+} */
 
 aside #recent-posts-2 a,
 aside #categories-2 a {
@@ -223,14 +221,13 @@ aside #categories-2 a:hover {
 }
 
 
-
-/* about us details here */
+/****************************** about us details here ******************************/
 
 .post-32 .has-text-align-center {
     margin-top: 30px;
 }
 
-/* form detailes here */
+/****************************** form detailes here ******************************/
 
 .post-164 .has-text-align-center {
     background-color: #473082;
@@ -238,6 +235,10 @@ aside #categories-2 a:hover {
     padding-top: 20px!important;
     padding-bottom: 8px!important;
     color: #fff !important;
+}
+
+.post-164 h2 {
+    width: 100% !important;
 }
 
 .post-164 p {
@@ -315,9 +316,7 @@ div.wpforms-container-full:hover .wpforms-form:hover .wpforms-page-button:hover 
     transition: all .5s;
 }
 
-
-
-/* information after all pages */
+/****************************** information after all pages ******************************/
 
 .entry-footer {
     display: none;
@@ -335,9 +334,7 @@ div.wpforms-container-full:hover .wpforms-form:hover .wpforms-page-button:hover 
     margin-right: auto;
 }
 
-
-
-/* single product related styling */
+/****************************** single product related styling ******************************/
 
 .woocommerce .single-product {
     width: 80%;
@@ -410,7 +407,7 @@ div.wpforms-container-full:hover .wpforms-form:hover .wpforms-page-button:hover 
     color: #000 !important;
 }
 
-/* woocommerce shop page styling */
+/****************************** woocommerce shop page styling ******************************/
 
 .woocommerce .columns-3{
     width: 80%;
@@ -454,9 +451,7 @@ div.wpforms-container-full:hover .wpforms-form:hover .wpforms-page-button:hover 
     transition: all 0.5;
 }
 
-
-
-/* woocommerce cart page styling */
+/****************************** woocommerce cart page styling ******************************/
 
 #post-77.post-77.page.type-page.status-publish.hentry{
     width: 80%;
@@ -676,7 +671,8 @@ td.product-name a {
     transition: all 0.5;
 }
 
-/* login page */
+
+/****************************** login page ******************************/
 
 .post-79 {
     width: 80%;
@@ -728,8 +724,7 @@ td.product-name a {
     max-width: 100% !important;
 }
 
-
-/* single post related styling */
+/****************************** single post related styling ******************************/
 
 .post-135 h1{
     margin-top: 30px !important;
@@ -748,7 +743,7 @@ td.product-name a {
     margin-right: auto;
 }
 
-/* main page some styling */
+/****************************** main page some styling ******************************/
 
 .post-43 h3 {
     margin-top: 30px;
@@ -812,7 +807,7 @@ td.product-name a {
     border: 1px solid transparent !important;
 }
 
-/* error-404 not-found stuff */
+/****************************** error-404 not-found stuff ******************************/
 
 .error-404, .not-found{
     width: 80%;
@@ -828,8 +823,7 @@ td.product-name a {
     margin-right: auto;
 }
 
-
-/* woocommerce results page info */
+/****************************** woocommerce results page info ******************************/
 
 @media only screen and (min-width: 375px){
 
