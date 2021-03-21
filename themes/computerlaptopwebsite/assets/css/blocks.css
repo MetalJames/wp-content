@@ -223,7 +223,7 @@ aside #categories-2 a:hover {
 
 /****************************** about us details here ******************************/
 
-.post-32 h2 {
+.post-32 h3 {
     margin-top: 30px;
 }
 
@@ -259,12 +259,12 @@ aside #categories-2 a:hover {
 .post-164 .has-text-align-center {
     background-color: #473082;
     margin-bottom: 0!important;
-    padding-top: 20px!important;
+    padding-top: 30px!important;
     padding-bottom: 8px!important;
     color: #fff !important;
 }
 
-.post-164 h2 {
+.post-164 h3 {
     width: 100% !important;
 }
 
@@ -464,6 +464,10 @@ div.wpforms-container-full:hover .wpforms-form:hover .wpforms-page-button:hover 
     display: none;
 }
 
+.post-76 .woocommerce-result-count {
+    width: auto !important;
+}
+
 .post-76 .add_to_cart_button {
     border: 3px solid #000 !important;
     border-radius: 5px !important;
@@ -502,7 +506,7 @@ div.wpforms-container-full:hover .wpforms-form:hover .wpforms-page-button:hover 
     width: 80%;
     margin-left: auto !important;
     margin-right: auto !important;
-    margin-top: 100px !important;
+    margin-top: 30px !important;
 }
 
 #post-77.post-77.page.type-page.status-publish.hentry footer{
@@ -510,7 +514,6 @@ div.wpforms-container-full:hover .wpforms-form:hover .wpforms-page-button:hover 
 }
 
 #post-77.post-77.page.type-page.status-publish.hentry h3{
-    margin-left: 0;
     margin-bottom: 50px;
 }
 
@@ -690,7 +693,7 @@ td.product-name a {
         margin-right: auto;
     }
     .post-78 .entry-content ul {
-        width: 80% !important;
+        width: 100% !important;
     }
 }
 
@@ -740,7 +743,7 @@ td.product-name a {
     margin-right: auto !important;
 }
 
-.post-79 h2 {
+.post-79 h3 {
     margin-top: 30px;
 }
 
