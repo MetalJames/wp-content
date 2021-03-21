@@ -321,15 +321,30 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
     color: #fff !important;
 }
 
-div.wpforms-container-full .wpforms-form input[type=submit], 
-div.wpforms-container-full .wpforms-form button[type=submit], 
-div.wpforms-container-full .wpforms-form .wpforms-page-button{
-    width: 375px !important;
-    color: #fff !important;
-    background-color: #0389ce !important;
-    box-shadow: 1px 1px 3px #808080;
-    border: 3px solid transparent !important;
-    transition: all .5s;
+@media only screen and (min-width: 375px){
+    div.wpforms-container-full .wpforms-form input[type=submit], 
+    div.wpforms-container-full .wpforms-form button[type=submit], 
+    div.wpforms-container-full .wpforms-form .wpforms-page-button{
+        width: 150px !important;
+        color: #fff !important;
+        background-color: #0389ce !important;
+        box-shadow: 1px 1px 3px #808080;
+        border: 3px solid transparent !important;
+        transition: all .5s;
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    div.wpforms-container-full .wpforms-form input[type=submit], 
+    div.wpforms-container-full .wpforms-form button[type=submit], 
+    div.wpforms-container-full .wpforms-form .wpforms-page-button{
+        width: 375px !important;
+        color: #fff !important;
+        background-color: #0389ce !important;
+        box-shadow: 1px 1px 3px #808080;
+        border: 3px solid transparent !important;
+        transition: all .5s;
+    }
 }
 
 div.wpforms-container-full:hover .wpforms-form:hover input[type=submit]:hover, 
@@ -341,6 +356,9 @@ div.wpforms-container-full:hover .wpforms-form:hover .wpforms-page-button:hover 
     box-shadow: 1px 1px 3px #808080;
     border: 3px solid #0389ce  !important;
     transition: all .5s;
+}
+
+@media only screen and (min-width: 375px){
 }
 
 /****************************** information after all pages ******************************/
@@ -654,10 +672,26 @@ td.product-name a {
     text-align: left;
 }
 
-.woocommerce .checkout {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+@media only screen and (min-width: 375px){
+    .woocommerce .checkout {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .post-78 .entry-content ul {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    .woocommerce .checkout {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .post-78 .entry-content ul {
+        width: 80% !important;
+    }
 }
 
 .woocommerce .col2-set .col-1, 
@@ -697,7 +731,6 @@ td.product-name a {
     color: #fff !important;
     transition: all 0.5;
 }
-
 
 /****************************** login page ******************************/
 
