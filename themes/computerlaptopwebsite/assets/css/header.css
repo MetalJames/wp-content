@@ -95,7 +95,7 @@
 }
 
 /* mobile hamburger menu setting */
-.mobileMenu{
+.menu-primary-menu-container .menu{
     display: none; /*hide the menu until hamburger is clicked*/
     flex-direction: column;
     list-style: none;
@@ -110,14 +110,14 @@
 }
 
 /*flex item of menu*/
-.mobileMenu li{
+.menu-primary-menu-container .menu li{
     margin: 0;
     background-color: #000;
     width: 100%;
     border: 3px solid #fff;
 }
 
-.mobileMenu a{
+.menu-primary-menu-container .menu a{
     color: #fff;
     line-height: 36px;
     font-size: 16pt;
@@ -143,7 +143,7 @@
     cursor: pointer;
 }
 
-#toggle:checked + .mobileMenu {
+#toggle:checked + .menu-primary-menu-container .menu {
     display: flex;
 }
 

@@ -52,18 +52,21 @@
 						);
 						?>
 
+						
+
 						<div class="show-for-small-only">
 
 							<label class="hamburger-icon" for="toggle"><span>&#9776;</span></label>
 							<input type="checkbox" id="toggle"/>
 
-							<ul class="mobileMenu">
-								<li><a href="https://computerlaptopsalewebsite.local/shop/">Shop AGH</a></li>
-								<li><a href="https://computerlaptopsalewebsite.local/about-us/">About Us</a></li>
-								<li><a href="https://computerlaptopsalewebsite.local/contact-us/">Contact Us</a></li>
-								<li><a href="https://computerlaptopsalewebsite.local/my-account/">My Account</a></li>
-								<li><a href="https://computerlaptopsalewebsite.local/cart/">Cart</a></li>
-							</ul>     
+							<?php
+								wp_nav_menu(
+									array(
+										'theme_location' => 'menu-primary',
+										'menu_id'        => 'primary-menu',
+									)
+								);
+								?>    
 
 						</div>   
 
