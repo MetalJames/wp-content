@@ -1,0 +1,24 @@
+2021-03-24T11:08:22+00:00 CRITICAL syntax error, unexpected end of file in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 127
+
+2021-03-24T11:09:50+00:00 CRITICAL syntax error, unexpected end of file in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 134
+
+2021-03-24T13:31:27+00:00 CRITICAL Uncaught Error: Call to undefined function get_thetitle() in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:41
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/archive.php(53): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+#6 /Us in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 41
+
+2021-03-24T13:31:28+00:00 CRITICAL Uncaught Error: Call to undefined function get_thetitle() in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php:41
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/404.php(60): get_footer()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+#6 /Users/ in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/footer.php on line 41
+

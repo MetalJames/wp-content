@@ -44,7 +44,7 @@ function clw_init() {
         'hierarchical'       => false,
         'menu_position'      => 20,
         'supports'           => array( 'title', 'editor', 'author', 'excerpt', 'thumbnail', 'filter_items_list' ),
-        'taxonomies'         => array( 'category', 'post_tag' ),
+        // 'taxonomies'         => array( 'category', 'post_tag' ),
         'show_in_rest'       => true,
     );
 

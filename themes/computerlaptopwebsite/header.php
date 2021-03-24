@@ -63,7 +63,7 @@
 								wp_nav_menu(
 									array(
 										'theme_location' => 'menu-primary',
-										'menu_id'        => 'primary-menu',
+										'menu_id'        => 'mobile-menu',
 									)
 								);
 								?>    
@@ -81,7 +81,7 @@
 					$facebook_url = get_theme_mod( 'facebook_url' );
 					if ($facebook_url){ 
 						?>
-					<a class="facebook-link" href="<?php echo esc_url( get_theme_mod( 'facebook_url' ) );  ?>">
+					<a class="facebook-link" href="<?php echo esc_url( get_theme_mod( 'facebook_url' ) );  ?>" target="_blank">
 						<img src="<?php echo get_template_directory_uri();?>/assets/img/facebook_logo.png" alt="facebook logo">
 					</a>
 						<?
@@ -90,7 +90,7 @@
 					$twitter_url = get_theme_mod( 'facebook_url' );
 					if ($twitter_url){ 
 						?>
-					<a class="twitter-link" href="<?php echo esc_url( get_theme_mod( 'twitter_url' ) );  ?>">
+					<a class="twitter-link" href="<?php echo esc_url( get_theme_mod( 'twitter_url' ) );  ?>" target="_blank">
 						<img src="<?php echo get_template_directory_uri();?>/assets/img/twitter_logo.png" alt="twitter logo logo">
 					</a>
 						<?
@@ -99,7 +99,7 @@
 					$instagram_url = get_theme_mod( 'facebook_url' );
 					if ($instagram_url){ 
 						?>
-					<a class="instagram-link" href="<?php echo esc_url( get_theme_mod( 'instagram_url' ) );  ?>">
+					<a class="instagram-link" href="<?php echo esc_url( get_theme_mod( 'instagram_url' ) );  ?>" target="_blank">
 						<img src="<?php echo get_template_directory_uri();?>/assets/img/instagram_logo.png" alt="instagram logo">
 					</a>
 						<?

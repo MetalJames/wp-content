@@ -190,12 +190,13 @@ blockquote, blockquote p{
 /** hiding not needed stuff **/
 
 aside #search-2,
-aside #search-3,
-aside #meta-2,
+aside #search-3
+/* aside #meta-2,
 aside #recent-comments-2,
 aside #recent-posts-2,
 aside #categories-2,
-aside #archives-2 {
+aside #archives-2  */
+{
     display: none;
 }
 
@@ -373,12 +374,6 @@ div.wpforms-container-full:hover .wpforms-form:hover .wpforms-page-button:hover 
     /* border-bottom: 1px solid lightgray; */
 }
 
-.comments-area, .widget-area {
-    max-width: 80% !important;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 /****************************** single product related styling ******************************/
 
 .woocommerce .single-product {
@@ -450,6 +445,17 @@ div.wpforms-container-full:hover .wpforms-form:hover .wpforms-page-button:hover 
 
 .nav-title {
     color: #000 !important;
+}
+
+.single-product .entry-content h2 {
+    padding-top: 30px;
+    width: 100% !important;
+} 
+
+.comments-area {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /****************************** woocommerce shop page styling ******************************/
@@ -626,6 +632,7 @@ td.product-name a {
 .cart_totals h2 {
     font-size: 24px !important;
     margin-top: 50px;
+    text-align: center;
 }
 
 .wc-proceed-to-checkout {
@@ -738,7 +745,7 @@ td.product-name a {
 /****************************** login page ******************************/
 
 .post-79 {
-    width: 80%;
+    width: 100%;
     margin-left: auto !important;
     margin-right: auto !important;
 }
@@ -762,7 +769,7 @@ td.product-name a {
 }
 
 .post-79 .woocommerce-MyAccount-navigation a {
-    color: #aaa !important;
+    color: #676767 !important;
     transition: all .5s;
 }
 
@@ -826,9 +833,56 @@ td.product-name a {
     transition: all 0.5;
 }
 
-.post-79 .entry-footer{
-    max-width: 100% !important;
+/****************************** widget side-bar with the login page ******************************/
+
+.widget-area {
+    padding: 1vw 4vw;
+    border-left: 1px solid #f5f5f5;
+    font-size: 13px;
 }
+
+.widget_recent_entries,
+.widget_archive,
+.widget_categories,
+.widget_pages {
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.widget-area .widget-title {
+    font-size: 20px !important;
+    color: #333;
+}
+
+.widget-area a,
+aside #recent-posts-2 a, aside #categories-2 a {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+    color: #676767 !important;
+}
+
+.widget-area a:after {
+    content: "";
+    position: absolute;
+    z-index: 400;
+    right: 0;
+    width: 0;
+    bottom: -5px;
+    background: #676767;
+    height: 2px;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.widget-area a:hover:after,
+.widget-area a:focus:after,
+.widget-area a:active:after {
+    left: 0;
+    right: auto;
+    width: 100%;
+}
+
 
 /****************************** single post related styling ******************************/
 
@@ -927,6 +981,70 @@ td.product-name a {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+/****************************** archive stuff ******************************/
+
+.post-271 h2,
+.post-253 h2,
+.post-248 h2,
+.post-234 h2,
+.post-215 h2,
+.post-135 h2 {
+    font-size: 32px !important;
+    font-weight: bold;
+}
+
+.post-271 a,
+.post-253 a,
+.post-248 a,
+.post-234 a,
+.post-215 a,
+.post-135 a  {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+    color: #000 !important;
+}
+
+.more-link {
+    font-style: italic;
+    left: 10%;
+    font-size: 24px;
+    box-shadow: -3px -3px 1px 1px #888888;
+}
+
+.post-271 a:after,
+.post-253 a:after,
+.post-248 a:after,
+.post-234 a:after,
+.post-215 a:after,
+.post-135 a:after,
+.more-link:after {
+    content: "";
+    position: absolute;
+    z-index: 400;
+    right: 0;
+    width: 0;
+    bottom: -5px;
+    background: #676767;
+    height: 2px;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.post-271 a:hover:after, .post-271 a:focus:after, .post-271 a:active:after,
+.post-253 a:hover:after, .post-253 a:focus:after, .post-253 a:active:after,
+.post-248 a:hover:after, .post-248 a:focus:after, .post-248 a:active:after,
+.post-234 a:hover:after, .post-234 a:focus:after, .post-234 a:active:after,
+.post-215 a:hover:after, .post-215 a:focus:after, .post-215 a:active:after,
+.post-135 a:hover:after, .post-135 a:focus:after, .post-135 a:active:after,
+.more-link:hover:after, .more-link:focus:after, .more-link:active:after {
+    left: 0;
+    right: auto;
+    width: 100%;
 }
 
 /****************************** woocommerce results page info ******************************/

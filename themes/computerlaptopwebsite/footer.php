@@ -27,9 +27,19 @@ $peripheral_args = array(
             ?>
 			<div class="footer_peripherals_body">
 				<div class="footer_peripherals_styling">
-					<p class="footer_thumbnail"><?php the_post_thumbnail(); ?></p>
+
+					<p class="footer_thumbnail">
+						<?php 
+						if ( has_post_thumbnail() ) {
+							the_post_thumbnail(); 
+						}
+							?>
+						</p>
+
 					<div class="text_info">
-						<h4><?php the_title(); ?></h6>
+
+						<h4><?php echo get_the_title() ? esc_html( get_the_title() ) : 'This Title'; ?></h4>
+
 						<p><?php the_excerpt(); ?></p>
 						<p class="underline_link_hover">Reed more &rarr;<a href="<?php the_permalink() ?>" class="postLinkBtn"> Here</a></p>
 					</div>
@@ -66,19 +76,19 @@ $peripheral_args = array(
 						
 							<li class="facebook">
 								<a href="https://facebook.com" target="_blank">
-									<img src="<?php echo get_template_directory_uri();?>/assets/img/facebook_logo.png" alt="facebook logo">
+									<img src="<?php echo get_template_directory_uri();?>/assets/img/facebook_logo.png" alt="facebook logo" target="_blank">
 								</a>
 							</li>
 						
 							<li class="twitter">
 								<a href="https://twitter.com" target="_blank">
-									<img src="<?php echo get_template_directory_uri();?>/assets/img/twitter_logo.png" alt="twitter logo logo">
+									<img src="<?php echo get_template_directory_uri();?>/assets/img/twitter_logo.png" alt="twitter logo logo" target="_blank">
 								</a>
 							</li>
 						
 							<li class="instagram">
 								<a href="https://instagram.com" target="_blank">
-									<img src="<?php echo get_template_directory_uri();?>/assets/img/instagram_logo.png" alt="instagram logo">
+									<img src="<?php echo get_template_directory_uri();?>/assets/img/instagram_logo.png" alt="instagram logo" target="_blank">
 								</a>
 							</li>
 						
