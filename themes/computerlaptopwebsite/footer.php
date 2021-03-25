@@ -41,7 +41,7 @@ $peripheral_args = array(
 						<h4><?php echo get_the_title() ? esc_html( get_the_title() ) : 'This Title'; ?></h4>
 
 						<p><?php the_excerpt(); ?></p>
-						<p class="underline_link_hover">Reed more &rarr;<a href="<?php the_permalink() ?>" class="postLinkBtn"> Here</a></p>
+						<p class="underline_link_hover">Read more &rarr;<a href="<?php the_permalink() ?>" class="postLinkBtn"> Here</a></p>
 					</div>
 				</div>
 			</div>

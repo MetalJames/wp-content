@@ -458,6 +458,25 @@ div.wpforms-container-full:hover .wpforms-form:hover .wpforms-page-button:hover 
     margin-right: auto;
 }
 
+
+.woocommerce a.button,
+.comments-area .submit {
+    border: 3px solid #000 !important;
+    border-radius: 5px !important;
+    background-color: #fff !important;
+    color: #000 !important;
+    transition: all 0.5;
+}
+
+.woocommerce a.button:hover,
+.comments-area .submit:hover {
+    border: 3px solid #000 !important;
+    border-radius: 5px !important;
+    background-color: #000 !important;
+    color: #fff !important;
+    transition: all 0.5;
+}
+
 /****************************** woocommerce shop page styling ******************************/
 
 .woocommerce .columns-3{
@@ -636,8 +655,6 @@ td.product-name a {
 }
 
 .wc-proceed-to-checkout {
-    border: 3px solid #000;
-    border-radius: 5px !important;
     padding: 0 !important;
     width: 250px;
     margin-left: auto;
@@ -832,6 +849,23 @@ td.product-name a {
     color: #fff !important;
     transition: all 0.5;
 }
+
+.post-79 .woocommerce-MyAccount-content .woocommerce-EditAccountForm .woocommerce-Button {
+    border: 3px solid #000 !important;
+    border-radius: 5px !important;
+    background-color: #fff !important;
+    color: #000 !important;
+    transition: all 0.5;
+}
+    
+.post-79 .woocommerce-MyAccount-content .woocommerce-Button:hover {
+    border: 3px solid #000 !important;
+    border-radius: 5px !important;
+    background-color: #000 !important;
+    color: #fff !important;
+    transition: all 0.5;
+}
+    
 
 /****************************** widget side-bar with the login page ******************************/
 
@@ -1046,6 +1080,74 @@ aside #recent-posts-2 a, aside #categories-2 a {
     right: auto;
     width: 100%;
 }
+
+
+/****************************** archive peripheral stuff ******************************/
+
+.post-437 h2,
+.post-436 h2,
+.post-432 h2,
+.post-435 h2 {
+    font-size: 32px !important;
+    font-weight: bold;
+}
+
+.post-437 a,
+.post-436 a,
+.post-432 a,
+.post-435 a {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+    color: #000 !important;
+}
+
+.more-link {
+    font-style: italic;
+    left: 10%;
+    font-size: 24px;
+    box-shadow: -3px -3px 1px 1px #888888;
+}
+
+.post-437 a:after,
+.post-436 a:after,
+.post-432 a:after,
+.post-435 a:after,
+.more-link:after {
+    content: "";
+    position: absolute;
+    z-index: 400;
+    right: 0;
+    width: 0;
+    bottom: -5px;
+    background: #676767;
+    height: 2px;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.post-437 a:hover:after, .post-437 a:focus:after, .post-437 a:active:after,
+.post-436 a:hover:after, .post-436 a:focus:after, .post-436 a:active:after,
+.post-432 a:hover:after, .post-432 a:focus:after, .post-432 a:active:after,
+.post-435 a:hover:after, .post-435 a:focus:after, .post-435 a:active:after,
+.more-link:hover:after, .more-link:focus:after, .more-link:active:after {
+    left: 0;
+    right: auto;
+    width: 100%;
+}
+
+.post-437 .post-thumbnail,
+.post-436 .post-thumbnail,
+.post-432 .post-thumbnail,
+.post-435 .post-thumbnail {
+    display: none;
+}
+
+.post-435 {
+    margin-bottom: 50px;
+}
+
 
 /****************************** woocommerce results page info ******************************/
 
