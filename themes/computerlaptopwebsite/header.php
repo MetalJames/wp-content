@@ -72,11 +72,12 @@
 
 
 					</nav><!-- #site-navigation -->
-					<!-- add social media api -->
+					
 				</div>
-				<!-- empty div for proper alignment on desktop screens -->
+				<!-- empty div for proper alignment on desktop screens  or for the social media links-->
 				<div class="cell large-2 social_panel">
 				
+				<!-- add social media api -->
 				<?php
 					$facebook_url = get_theme_mod( 'facebook_url' );
 					if ($facebook_url){ 
