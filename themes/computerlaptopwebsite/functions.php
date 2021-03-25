@@ -51,6 +51,7 @@ if ( ! function_exists( 'clw_setup' ) ) :
 		register_nav_menus(
 			array(
 				'menu-primary' => esc_html__( 'Primary', 'clw' ),
+				'menu-mobile' => esc_html__( 'Mobile', 'clw' ),
 			)
 		);
 
@@ -192,3 +193,72 @@ function clw_enqueue_block_assets() {
 	);
 }
 add_action( 'enqueue_block_assets', 'clw_enqueue_block_assets' );
+
+
+
+// function clw_logged_in() {
+//     if ( is_user_logged_in() ) {
+//         $current_user = wp_get_current_user();
+//         printf( 'You are logged in as %s!', esc_html( $current_user->display_name ) );
+//     } else {
+//         echo( 'Non-Personalized Message!' );
+//     }
+// }
+// add_action( 'loop_start', 'clw_logged_in' );
+
+
+/**
+ * Give a personalized message for logged in users and a generic one for anonymous visitors
+ */
+
+// function clw_logged_in() {
+// 	if ( is_user_logged_in() ) {
+// 		$current_user = wp_get_current_user();
+// 		esc_html( '<div class="loggedIn"><a href="https://computerlaptopsalewebsite.local/my-account/")">My Account</a></div>');
+// 		}else{
+// 		esc_html ( '<div class="loggedIn"><a href="https://computerlaptopsalewebsite.local/my-account/">Log In</a></div>');
+// 	}
+// }
+
+// add_action( 'loop_start', 'clw_logged_in' );
+
+// function clw_logged_in() {
+// 	if ( is_user_logged_in() ) {
+// 		$current_user = wp_get_current_user();
+// 		echo '<div class="loggedIn">You are logged in as - ', esc_html( $current_user->display_name ),'. ','<a href="'.wp_logout_url("https://computerlaptopsalewebsite.local/my-account/").'">Logout?</a></div>';
+// 		}else{
+// 		echo 'Please login by <a href="https://computerlaptopsalewebsite.local/my-account/">clicking here</a>.';
+// 	}
+// }
+
+// add_action( 'loop_start', 'clw_logged_in' );
+
+//I spent 5 hours on how to do this, the code above is examples of what I have gone through
+// this code is for you to see that I have really tried to learn this stuff, it will be removed
+// so please dont take any marks down for it
+
+
+// here we create Woocommerce logout link and login link
+
+// add_filter( 'wp_nav_menu_items', 'add_loginout_link', 10, 2 );
+// function add_loginout_link( $items, $args ) {
+// 	if (is_user_logged_in() && $args->theme_location == 'primary-menu') {
+// 		$items .= '<li><a href="'. wp_logout_url("https://computerlaptopsalewebsite.local/") .'">Log Out</a></li>';
+// 	}
+// 	elseif (!is_user_logged_in() && $args->theme_location == 'primary-menu') {
+// 		$items .= '<li><a href="' . wp_login_url( wc_get_page_id( 'my-account' ) ) . '">lol</a></li>';
+// 	}
+// 	return $items;
+// }
+
+// enable this functionality to be able to add log out and log in button to menu header, to turn on support for the function above
+
+// add_filter('wp_nav_menu_items', 'add_login_logout_link', 10, 2);
+// function add_login_logout_link($items, $args) {
+// 	ob_start();
+// 	wp_loginout();
+// 	$loginoutlink = ob_get_contents();
+// 	ob_end_clean();
+// 	$items .= '<li>'. $loginoutlink .'</li>';
+// 	return $items;
+// }

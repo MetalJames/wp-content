@@ -53,13 +53,36 @@
     }
 }
 
-.menu a {
+@media only screen and (min-width: 375px){
+    .loggedIn a{
+        display: none !important;
+        line-height: 1;
+        text-decoration: none;
+        padding: 0.7rem 1rem;
+        color: #fff !important;
+    }
+}
+
+
+@media only screen and (min-width: 650px){
+    .loggedIn a{
+        display: inline !important;
+        line-height: 1;
+        text-decoration: none;
+        padding: 0.7rem 1rem;
+        color: #fff !important;
+    }
+}
+
+.menu a,
+.loggedIn a {
     display: inline;
     position: relative;
     overflow: hidden;
 }
 
-.menu a:after {
+.menu a:after,
+.loggedIn a:after {
     content: "";
     position: absolute;
     z-index: 400;
@@ -75,11 +98,15 @@
 
 .menu a:hover:after,
 .menu a:focus:after,
-.menu a:active:after {
+.menu a:active:after,
+.loggedIn a:hover:after,
+.loggedIn a:focus:after,
+.loggedIn a:active:after {
     left: 0;
     right: auto;
     width: 100%;
 }
+
 
 @media only screen and (min-width: 650px){
     #mega-menu-wrap-menu-primary .mega-menu-toggle.mega-menu-open + #mega-menu-menu-primary {
@@ -95,7 +122,7 @@
 }
 
 /* mobile hamburger menu setting */
-.menu-primary-menu-container #mobile-menu{
+.menu-mobile-menu-container #menu-mobile {
     display: none; /*hide the menu until hamburger is clicked*/
     flex-direction: column;
     list-style: none;
@@ -103,14 +130,14 @@
     width: 100%;
     padding: 0; /*remove default padding from <ul>*/
     text-align: center;
-    position: absolute;
-    /* top: 15%; */
+    position: fixed;
+    top:13%;
     left: 0%;
     z-index: 10;
 }
 
 /*flex item of menu*/
-.menu-primary-menu-container #mobile-menu li{
+.menu-mobile-menu-container #menu-mobile li{
     margin: 0;
     padding-bottom: 3px;
     background-color: #fff;
@@ -118,7 +145,7 @@
     border: 3px solid #000;
 }
 
-.menu-primary-menu-container #mobile-menu a{
+.menu-mobile-menu-container #menu-mobile a{
     color: #000;
     line-height: 36px;
     font-size: 16pt;
@@ -137,6 +164,7 @@
     font-size: 36pt;
     line-height: 30pt;  /*symbol not actually square*/
     padding: 0.25em;
+    padding-right: 0;
     color: #fff;
 }
 
@@ -144,7 +172,7 @@
     cursor: pointer;
 }
 
-#toggle:checked + .menu-primary-menu-container #mobile-menu {
+#toggle:checked + .menu-mobile-menu-container #menu-mobile {
     display: flex;
 }
 

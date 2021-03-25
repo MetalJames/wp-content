@@ -1,0 +1,228 @@
+2021-03-25T17:14:17+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 216
+
+2021-03-25T17:14:17+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 216
+
+2021-03-25T17:21:26+00:00 CRITICAL syntax error, unexpected '(', expecting '{' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 223
+
+2021-03-25T17:21:26+00:00 CRITICAL syntax error, unexpected '(', expecting '{' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 223
+
+2021-03-25T17:42:35+00:00 CRITICAL Cannot redeclare clw_logged_in() (previously declared in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:200) in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 211
+
+2021-03-25T17:42:36+00:00 CRITICAL Cannot redeclare clw_logged_in() (previously declared in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:200) in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 211
+
+2021-03-25T17:44:54+00:00 CRITICAL syntax error, unexpected ',' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 215
+
+2021-03-25T17:50:00+00:00 CRITICAL syntax error, unexpected ',' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 215
+
+2021-03-25T17:50:00+00:00 CRITICAL syntax error, unexpected ',' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 215
+
+2021-03-25T17:50:20+00:00 CRITICAL syntax error, unexpected ';' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 215
+
+2021-03-25T17:54:22+00:00 CRITICAL syntax error, unexpected ''<a href="'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 214
+
+2021-03-25T17:54:22+00:00 CRITICAL syntax error, unexpected ''<a href="'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 214
+
+2021-03-25T17:54:23+00:00 CRITICAL syntax error, unexpected ''<a href="'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 214
+
+2021-03-25T17:56:25+00:00 CRITICAL syntax error, unexpected ''. '' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 214
+
+2021-03-25T18:57:06+00:00 CRITICAL syntax error, unexpected 'if' (T_IF), expecting ')' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/header.php on line 52
+
+2021-03-25T18:57:34+00:00 CRITICAL syntax error, unexpected 'if' (T_IF), expecting ')' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/header.php on line 51
+
+2021-03-25T19:30:24+00:00 CRITICAL syntax error, unexpected 'href' (T_STRING), expecting ')' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/header.php on line 76
+
+2021-03-25T20:44:27+00:00 CRITICAL Cannot redeclare clw_logged_in() (previously declared in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:198) in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 213
+
+2021-03-25T20:44:27+00:00 CRITICAL Cannot redeclare clw_logged_in() (previously declared in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:198) in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 213
+
+2021-03-25T20:46:30+00:00 CRITICAL Cannot redeclare clw_logged_in() (previously declared in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:198) in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 213
+
+2021-03-25T20:46:30+00:00 CRITICAL Cannot redeclare clw_logged_in() (previously declared in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:198) in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 213
+
+2021-03-25T20:46:31+00:00 CRITICAL Cannot redeclare clw_logged_in() (previously declared in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:198) in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 213
+
+2021-03-25T20:46:31+00:00 CRITICAL Cannot redeclare clw_logged_in() (previously declared in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:198) in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 213
+
+2021-03-25T20:46:53+00:00 CRITICAL Cannot redeclare clw_logged_in() (previously declared in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:198) in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 213
+
+2021-03-25T20:46:53+00:00 CRITICAL Cannot redeclare clw_logged_in() (previously declared in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:198) in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 213
+
+2021-03-25T20:46:54+00:00 CRITICAL Cannot redeclare clw_logged_in() (previously declared in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:198) in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 213
+
+2021-03-25T20:46:55+00:00 CRITICAL Cannot redeclare clw_logged_in() (previously declared in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:198) in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 213
+
+2021-03-25T21:14:00+00:00 CRITICAL syntax error, unexpected ''</li>'' (T_CONSTANT_ENCAPSED_STRING) in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 239
+
+2021-03-25T21:14:18+00:00 CRITICAL syntax error, unexpected ',' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 238
+
+2021-03-25T21:17:30+00:00 CRITICAL syntax error, unexpected '$redirect' (T_VARIABLE), expecting ')' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 237
+
+2021-03-25T21:17:30+00:00 CRITICAL syntax error, unexpected '$redirect' (T_VARIABLE), expecting ')' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 237
+
+2021-03-25T21:26:45+00:00 CRITICAL Uncaught Error: Call to undefined function add_loginout_link() in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:248
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php(292): add_login_logout_link('<li id="menu-it...', Object(stdClass))
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/plugin.php(212): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/nav-menu-template.php(259): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/header.php(49): wp_nav_menu(Object(stdClass))
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Lo in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 248
+
+2021-03-25T21:26:52+00:00 CRITICAL Uncaught Error: Call to undefined function add_loginout_link() in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:248
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php(292): add_login_logout_link('<li id="menu-it...', Object(stdClass))
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/plugin.php(212): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/nav-menu-template.php(259): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/header.php(49): wp_nav_menu(Object(stdClass))
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Lo in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 248
+
+2021-03-25T21:34:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_loginout_link(), 1 passed in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:267
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php(292): add_loginout_link(Object(WP_Query))
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-query.php(3326): do_action_ref_array('loop_start', Array)
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/query.php(975): WP_ in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 267
+
+2021-03-25T21:34:54+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_loginout_link(), 1 passed in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:267
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php(292): add_loginout_link(Object(WP_Query))
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-query.php(3326): do_action_ref_array('loop_start', Array)
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlapto in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 267
+
+2021-03-25T21:35:25+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 285 and at least 2 expected in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/plugin.php:409
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php(285): add_action('add_loginout_li...')
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-settings.php(528): include('/Users/vovaruzh...')
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-config.php(77): require_once('/Users/vovaruzh...')
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-load.php(37): require_once('/Users/vovaruzh...')
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(13): require_once('/Users/vovaruzh...')
+#5 /Users/vo in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/plugin.php on line 409
+
+2021-03-25T21:35:25+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 285 and at least 2 expected in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/plugin.php:409
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php(285): add_action('add_loginout_li...')
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-settings.php(528): include('/Users/vovaruzh...')
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-config.php(77): require_once('/Users/vovaruzh...')
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-load.php(37): require_once('/Users/vovaruzh...')
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(13): require_once('/Users/vovaruzh...')
+#5 /Users/vo in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/plugin.php on line 409
+
+2021-03-25T21:36:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_loginout_link(), 1 passed in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:267
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php(292): add_loginout_link('')
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-settings.php(560): do_action('init')
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-config.php(77): require_once('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sit in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 267
+
+2021-03-25T21:36:24+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_loginout_link(), 1 passed in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:267
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php(292): add_loginout_link('')
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-settings.php(560): do_action('init')
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-config.php(77): require_once('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sit in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 267
+
+2021-03-25T21:36:26+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_loginout_link(), 1 passed in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:267
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php(292): add_loginout_link('')
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-settings.php(560): do_action('init')
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-config.php(77): require_once('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sit in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 267
+
+2021-03-25T21:36:26+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_loginout_link(), 1 passed in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:267
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php(292): add_loginout_link('')
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-settings.php(560): do_action('init')
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-config.php(77): require_once('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sit in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 267
+
+2021-03-25T21:36:34+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_loginout_link(), 1 passed in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:267
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php(292): add_loginout_link('')
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-settings.php(560): do_action('init')
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-config.php(77): require_once('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sit in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 267
+
+2021-03-25T21:36:34+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_loginout_link(), 1 passed in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:267
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php(292): add_loginout_link('')
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-settings.php(560): do_action('init')
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-config.php(77): require_once('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sit in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 267
+
+2021-03-25T21:38:01+00:00 CRITICAL syntax error, unexpected ',' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 216
+
+2021-03-25T21:38:01+00:00 CRITICAL syntax error, unexpected ',' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 216
+
+2021-03-25T21:38:03+00:00 CRITICAL syntax error, unexpected ',' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 216
+
+2021-03-25T21:38:03+00:00 CRITICAL syntax error, unexpected ',' in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 216
+
+2021-03-25T22:06:08+00:00 CRITICAL Uncaught Error: Call to undefined function clw_logged_in() in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/header.php:53
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/page.php(15): get_header()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+#6 /User in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/header.php on line 53
+
+2021-03-25T22:06:10+00:00 CRITICAL Uncaught Error: Call to undefined function clw_logged_in() in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/header.php:53
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template.php(676): load_template('/Users/vovaruzh...', true, Array)
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/page.php(15): get_header()
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/template-loader.php(106): include('/Users/vovaruzh...')
+#5 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(19): require_once('/Users/vovaruzh...')
+#6 /User in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/header.php on line 53
+
+2021-03-25T22:09:51+00:00 CRITICAL Cannot redeclare clw_logged_in() (previously declared in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:198) in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 213
+
+2021-03-25T22:09:52+00:00 CRITICAL Cannot redeclare clw_logged_in() (previously declared in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:198) in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 213
+
+2021-03-25T22:11:40+00:00 CRITICAL Cannot redeclare clw_logged_in() (previously declared in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:198) in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 213
+
+2021-03-25T22:11:40+00:00 CRITICAL Cannot redeclare clw_logged_in() (previously declared in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:198) in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 213
+
+2021-03-25T22:11:45+00:00 CRITICAL Cannot redeclare clw_logged_in() (previously declared in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:198) in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 213
+
+2021-03-25T22:11:45+00:00 CRITICAL Cannot redeclare clw_logged_in() (previously declared in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:198) in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 213
+
+2021-03-25T22:11:56+00:00 CRITICAL Cannot redeclare clw_logged_in() (previously declared in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php:198) in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 213
+
+2021-03-25T22:16:39+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 222 and at least 2 expected in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/plugin.php:409
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php(222): add_action('loop_start')
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-settings.php(528): include('/Users/vovaruzh...')
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-config.php(77): require_once('/Users/vovaruzh...')
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-load.php(37): require_once('/Users/vovaruzh...')
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(13): require_once('/Users/vovaruzh...')
+#5 /Users/vovaruzhak in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/plugin.php on line 409
+
+2021-03-25T22:16:39+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php on line 222 and at least 2 expected in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/plugin.php:409
+Stack trace:
+#0 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-content/themes/computerlaptopwebsite/functions.php(222): add_action('loop_start')
+#1 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-settings.php(528): include('/Users/vovaruzh...')
+#2 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-config.php(77): require_once('/Users/vovaruzh...')
+#3 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-load.php(37): require_once('/Users/vovaruzh...')
+#4 /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-blog-header.php(13): require_once('/Users/vovaruzh...')
+#5 /Users/vovaruzhak in /Users/vovaruzhak/Local Sites/computerlaptopsalewebsite/app/public/wp-includes/plugin.php on line 409
+
