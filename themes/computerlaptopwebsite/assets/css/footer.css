@@ -91,7 +91,6 @@
         margin-right: auto;
         padding-top: 3vw;
         padding-bottom: 1vw;
-        display: flex;
         border-bottom: 1px solid #fff;
         min-height: 10vw;
     }
@@ -123,7 +122,6 @@
         margin-right: auto;
         padding-top: 3vw;
         padding-bottom: 1vw;
-        display: flex;
         border-bottom: 1px solid #fff;
         min-height: 10vw;
     }
