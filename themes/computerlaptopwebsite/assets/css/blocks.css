@@ -1173,3 +1173,20 @@ aside #recent-posts-2 a, aside #categories-2 a {
         float: right;
     }
 }
+
+/****************************** optional, will display hello under header if you always want to see if user is logged in or not ******************************/
+
+/* .displayHello {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    text-align: right;
+    padding-right: 2vw;
+}
+
+.displayHello a {
+    width: 100%;
+    background-color: #000;
+    color: #fff !important;
+    text-decoration: underline;
+} */

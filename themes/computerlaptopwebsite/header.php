@@ -50,6 +50,8 @@
 									'menu_id'        => 'primary-menu',
 								)
 							);
+							// cheking if user is logged in or not, if user not logged in will say - "log in"
+							// if user already logged in will say - "My Account"
 								if ( is_user_logged_in() ) {
 									$current_user = wp_get_current_user();
 									echo '<div class="loggedIn"><a href="https://computerlaptopsalewebsite.local/my-account/")">My Account</a></div>';
