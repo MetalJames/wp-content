@@ -47,7 +47,7 @@ if ( ! function_exists( 'clw_setup' ) ) :
 		 */
 		add_theme_support( 'post-thumbnails' );
 
-		// This theme uses wp_nav_menu() in one location.
+		// This theme uses wp_nav_menu() in one location. For desktop and tablet view Primary, for Mobile view Mobile
 		register_nav_menus(
 			array(
 				'menu-primary' => esc_html__( 'Primary', 'clw' ),
